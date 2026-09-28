@@ -14,7 +14,7 @@ window.allExams["exam8"] = {
             word: "개최하다",
             options: ["열다", "해지하다", "닫다", "부수다"],
             answer: 0,
-            explanation: "'개최하다'의 비슷한 말은 '열다'입니다."
+            explanation: "The synonym for '개최하다' (to hold/host an event) is '열다' (to open/hold)."
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ window.allExams["exam8"] = {
             word: "점검하다",
             options: ["정비하다", "연기하다", "추락하다", "남기다"],
             answer: 0,
-            explanation: "'점검하다'의 비슷한 말은 '정비하다'입니다."
+            explanation: "The synonym for '점검하다' (to inspect/check) is '정비하다' (to maintain/repair)."
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ window.allExams["exam8"] = {
             word: "배우다",
             options: ["공부하다", "가르치다", "버리다", "지키다"],
             answer: 0,
-            explanation: "'배우다'의 비슷한 말은 '공부하다'입니다."
+            explanation: "The synonym for '배우다' (to learn) is '공부하다' (to study)."
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ window.allExams["exam8"] = {
             word: "죽다",
             options: ["살다", "사망하다", "돌아가다", "남다"],
             answer: 0,
-            explanation: "'죽다'의 반댓말은 '살다'입니다."
+            explanation: "The antonym of '죽다' (to die) is '살다' (to live)."
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ window.allExams["exam8"] = {
             word: "포장하다",
             options: ["싸다", "풀다", "벗기다", "버리다"],
             answer: 0,
-            explanation: "'포장하다'의 비슷한 말은 '싸다'입니다."
+            explanation: "The synonym for '포장하다' (to pack/wrap) is '싸다' (to wrap/pack)."
         },
         {
             id: 6,
@@ -64,7 +64,7 @@ window.allExams["exam8"] = {
             word: "입금하다",
             options: ["출금하다", "돈을 넣다", "예금하다", "저축하다"],
             answer: 0,
-            explanation: "'입금하다'의 반댓말은 '출금하다'입니다."
+            explanation: "The antonym of '입금하다' (to deposit money) is '출금하다' (to withdraw money)."
         },
         {
             id: 7,
@@ -74,7 +74,7 @@ window.allExams["exam8"] = {
             word: "기르다",
             options: ["사육하다", "팔다", "버리다", "줄이다"],
             answer: 0,
-            explanation: "'기르다'의 비슷한 말은 '사육하다'입니다."
+            explanation: "The synonym for '기르다' (to raise/breed) is '사육하다' (to breed/raise animals)."
         },
         {
             id: 8,
@@ -84,7 +84,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["부수다", "재작하다", "생산하다", "조립하다"],
             answer: 0,
-            explanation: "'만들다'의 반댓말은 '부수다'입니다."
+            explanation: "The antonym of '만들다' (to make/create) is '부수다' (to break/destroy)."
         },
         {
             id: 9,
@@ -94,7 +94,7 @@ window.allExams["exam8"] = {
             word: "출근하다",
             options: ["퇴근하다", "회사에 가다", "근무하다", "출발하다"],
             answer: 0,
-            explanation: "'출근하다'의 반댓말은 '퇴근하다'입니다."
+            explanation: "The antonym of '출근하다' (to go to work / clock in) is '퇴근하다' (to leave work / clock out)."
         },
         {
             id: 10,
@@ -104,7 +104,7 @@ window.allExams["exam8"] = {
             word: "원하다",
             options: ["바라다", "포기하다", "버리다", "미루다"],
             answer: 0,
-            explanation: "'원하다'의 비슷한 말은 '바라다'입니다."
+            explanation: "The synonym for '원하다' (to want/desire) is '바라다' (to wish/hope)."
         },
         {
             id: 11,
@@ -114,7 +114,7 @@ window.allExams["exam8"] = {
             word: "제조하다",
             options: ["생산하다", "파괴하다", "부수다", "철거하다"],
             answer: 0,
-            explanation: "'제조하다'의 비슷한 말은 '생산하다'입니다."
+            explanation: "The synonym for '제조하다' (to manufacture) is '생산하다' (to produce)."
         },
         {
             id: 12,
@@ -124,7 +124,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["어기다", "준수하다", "따르다", "보호하다"],
             answer: 0,
-            explanation: "'지키다'의 반댓말은 '어기다'입니다."
+            explanation: "The antonym of '지키다' (to keep/obey) is '어기다' (to break/violate)."
         },
         {
             id: 13,
@@ -134,7 +134,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to keep/observe) is '준수하다' (to comply with/observe)."
         },
         {
             id: 14,
@@ -144,7 +144,7 @@ window.allExams["exam8"] = {
             word: "매다",
             options: ["묶다", "풀다", "자르다", "버리다"],
             answer: 0,
-            explanation: "'매다'의 비슷한 말은 '묶다'입니다."
+            explanation: "The synonym for '매다' (to tie/fasten) is '묶다' (to tie/bind)."
         },
         {
             id: 15,
@@ -154,7 +154,7 @@ window.allExams["exam8"] = {
             word: "시작하다",
             options: ["끝나다", "시작", "출발", "오픈"],
             answer: 0,
-            explanation: "'시작하다'의 반댓말은 '끝나다'입니다."
+            explanation: "The antonym of '시작하다' (to start/begin) is '끝나다' (to end/finish)."
         },
         {
             id: 16,
@@ -164,7 +164,7 @@ window.allExams["exam8"] = {
             word: "구하다",
             options: ["찾다", "잃다", "숨기다", "버리다"],
             answer: 0,
-            explanation: "'구하다'의 비슷한 말은 '찾다'입니다."
+            explanation: "The synonym for '구하다' (to find/seek) is '찾다' (to look for/find)."
         },
         {
             id: 17,
@@ -174,7 +174,7 @@ window.allExams["exam8"] = {
             word: "고용하다",
             options: ["해고하다", "채용하다", "뽑다", "모집하다"],
             answer: 0,
-            explanation: "'고용하다'의 반댓말은 '해고하다'입니다."
+            explanation: "The antonym of '고용하다' (to employ/hire) is '해고하다' (to fire/dismiss)."
         },
         {
             id: 18,
@@ -184,7 +184,7 @@ window.allExams["exam8"] = {
             word: "이용하다",
             options: ["사용하다", "만들다", "버리다", "멈추다"],
             answer: 0,
-            explanation: "'이용하다'의 비슷한 말은 '사용하다'입니다."
+            explanation: "The synonym for '이용하다' (to use/utilize) is '사용하다' (to use)."
         },
         {
             id: 19,
@@ -194,7 +194,7 @@ window.allExams["exam8"] = {
             word: "적재하다",
             options: ["실다", "내리다", "버리다", "밀다"],
             answer: 0,
-            explanation: "'적재하다'의 비슷한 말은 '실다'입니다."
+            explanation: "The synonym for '적재하다' (to load freight) is '실다' (to load)."
         },
         {
             id: 20,
@@ -204,7 +204,7 @@ window.allExams["exam8"] = {
             word: "설치하다",
             options: ["세우다", "제거하다", "파괴하다", "부수다"],
             answer: 0,
-            explanation: "'설치하다'의 비슷한 말은 '세우다'입니다."
+            explanation: "The synonym for '설치하다' (to install) is '세우다' (to set up/erect)."
         },
         {
             id: 21,
@@ -214,7 +214,7 @@ window.allExams["exam8"] = {
             word: "부여하다",
             options: ["할당하다", "획득하다", "빼앗다", "숨기다"],
             answer: 0,
-            explanation: "'부여하다'의 비슷한 말은 '할당하다'입니다."
+            explanation: "The synonym for '부여하다' (to grant/assign) is '할당하다' (to allocate/assign)."
         },
         {
             id: 22,
@@ -224,7 +224,7 @@ window.allExams["exam8"] = {
             word: "포장하다",
             options: ["벗기다", "싸다", "묶다", "포장"],
             answer: 0,
-            explanation: "'포장하다'의 반댓말은 '벗기다'입니다."
+            explanation: "The antonym of '포장하다' (to wrap/pack) is '벗기다' (to strip/unwrap/remove)."
         },
         {
             id: 23,
@@ -234,7 +234,7 @@ window.allExams["exam8"] = {
             word: "틀다",
             options: ["켜다", "끄다", "막다", "끊다"],
             answer: 0,
-            explanation: "'틀다'의 비슷한 말은 '켜다'입니다."
+            explanation: "The synonym for '틀다' (to turn on) is '켜다' (to turn on)."
         },
         {
             id: 24,
@@ -244,7 +244,7 @@ window.allExams["exam8"] = {
             word: "사다",
             options: ["구매하다", "팔다", "판매하다", "버리다"],
             answer: 0,
-            explanation: "'사다'의 비슷한 말은 '구매하다'입니다."
+            explanation: "The synonym for '사다' (to buy) is '구매하다' (to purchase)."
         },
         {
             id: 25,
@@ -254,7 +254,7 @@ window.allExams["exam8"] = {
             word: "이긴다",
             options: ["승리하다", "지다", "도망치다", "포기하다"],
             answer: 0,
-            explanation: "'이긴다'의 비슷한 말은 '승리하다'입니다."
+            explanation: "The synonym for '이긴다' (to win) is '승리하다' (to achieve victory)."
         },
         {
             id: 26,
@@ -264,7 +264,7 @@ window.allExams["exam8"] = {
             word: "보관하다",
             options: ["저장하다", "버리다", "잃다", "찾다"],
             answer: 0,
-            explanation: "'보관하다'의 비슷한 말은 '저장하다'입니다."
+            explanation: "The synonym for '보관하다' (to store/keep) is '저장하다' (to save/store)."
         },
         {
             id: 27,
@@ -274,7 +274,7 @@ window.allExams["exam8"] = {
             word: "개설하다",
             options: ["만들다", "폐쇄하다", "해지하다", "부수다"],
             answer: 0,
-            explanation: "'개설하다'의 비슷한 말은 '만들다'입니다."
+            explanation: "The synonym for '개설하다' (to open an account / establish) is '만들다' (to make/create)."
         },
         {
             id: 28,
@@ -284,7 +284,7 @@ window.allExams["exam8"] = {
             word: "환영하다",
             options: ["맞이하다", "환송하다", "배웅하다", "떠나다"],
             answer: 0,
-            explanation: "'환영하다'의 비슷한 말은 '맞이하다'입니다."
+            explanation: "The synonym for '환영하다' (to welcome) is '맞이하다' (to greet/receive)."
         },
         {
             id: 29,
@@ -294,7 +294,7 @@ window.allExams["exam8"] = {
             word: "건조하다",
             options: ["말리다", "적시다", "축축하게 하다", "버리다"],
             answer: 0,
-            explanation: "'건조하다'의 비슷한 말은 '말리다'입니다."
+            explanation: "The synonym for '건조하다' (to dry) is '말리다' (to dry out)."
         },
         {
             id: 30,
@@ -304,7 +304,7 @@ window.allExams["exam8"] = {
             word: "고치다",
             options: ["수리하다", "망치다", "파손하다", "부수다"],
             answer: 0,
-            explanation: "'고치다'의 비슷한 말은 '수리하다'입니다."
+            explanation: "The synonym for '고치다' (to repair/fix) is '수리하다' (to repair)."
         },
         {
             id: 31,
@@ -314,7 +314,7 @@ window.allExams["exam8"] = {
             word: "고르다",
             options: ["선택하다", "제외하다", "버리다", "무시하다"],
             answer: 0,
-            explanation: "'고르다'의 비슷한 말은 '선택하다'입니다."
+            explanation: "The synonym for '고르다' (to choose/select) is '선택하다' (to select)."
         },
         {
             id: 32,
@@ -324,7 +324,7 @@ window.allExams["exam8"] = {
             word: "자르다",
             options: ["베다", "붙이다", "잇다", "모으다"],
             answer: 0,
-            explanation: "'자르다'의 비슷한 말은 '베다'입니다."
+            explanation: "The synonym for '자르다' (to cut) is '베다' (to cut/slice)."
         },
         {
             id: 33,
@@ -334,7 +334,7 @@ window.allExams["exam8"] = {
             word: "이용하다",
             options: ["쓰다", "아끼다", "버리다", "감추다"],
             answer: 0,
-            explanation: "'이용하다'의 비슷한 말은 '쓰다'입니다."
+            explanation: "The synonym for '이용하다' (to use) is '쓰다' (to use)."
         },
         {
             id: 34,
@@ -344,7 +344,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["생산하다", "부수다", "파괴하다", "철거하다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '생산하다'입니다."
+            explanation: "The synonym for '만들다' (to make) is '생산하다' (to produce)."
         },
         {
             id: 35,
@@ -354,7 +354,7 @@ window.allExams["exam8"] = {
             word: "만지다",
             options: ["손대다", "멀어지다", "놓다", "피하다"],
             answer: 0,
-            explanation: "'만지다'의 비슷한 말은 '손대다'입니다."
+            explanation: "The synonym for '만지다' (to touch) is '손대다' (to touch/handle)."
         },
         {
             id: 36,
@@ -364,7 +364,7 @@ window.allExams["exam8"] = {
             word: "배우다",
             options: ["공부하다", "가르치다", "설명하다", "잊다"],
             answer: 0,
-            explanation: "'배우다'의 비슷한 말은 '공부하다'입니다."
+            explanation: "The synonym for '배우다' (to learn) is '공부하다' (to study)."
         },
         {
             id: 37,
@@ -374,7 +374,7 @@ window.allExams["exam8"] = {
             word: "충돌하다",
             options: ["부딪치다", "피하다", "비껴가다", "멈추다"],
             answer: 0,
-            explanation: "'충돌하다'의 비슷한 말은 '부딪치다'입니다."
+            explanation: "The synonym for '충돌하다' (to collide) is '부딪치다' (to bump/collide into)."
         },
         {
             id: 38,
@@ -384,7 +384,7 @@ window.allExams["exam8"] = {
             word: "다가가다",
             options: ["접근하다", "멀어지다", "도망치다", "떠나다"],
             answer: 0,
-            explanation: "'다가가다'의 비슷한 말은 '접근하다'입니다."
+            explanation: "The synonym for '다가가다' (to approach) is '접근하다' (to approach)."
         },
         {
             id: 39,
@@ -394,7 +394,7 @@ window.allExams["exam8"] = {
             word: "환영하다",
             options: ["환송하다", "맞이하다", "반기다", "환영"],
             answer: 0,
-            explanation: "'환영하다'의 반댓말은 '환송하다'입니다."
+            explanation: "The antonym of '환영하다' (to welcome) is '환송하다' (to send off)."
         },
         {
             id: 40,
@@ -404,7 +404,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow/keep) is '따르다' (to follow/obey)."
         },
         {
             id: 41,
@@ -414,7 +414,7 @@ window.allExams["exam8"] = {
             word: "보관하다",
             options: ["꺼내다", "저장하다", "보존하다", "유지하다"],
             answer: 0,
-            explanation: "'보관하다'의 반댓말은 '꺼내다'입니다."
+            explanation: "The antonym of '보관하다' (to store/keep) is '꺼내다' (to take out)."
         },
         {
             id: 42,
@@ -424,7 +424,7 @@ window.allExams["exam8"] = {
             word: "사다",
             options: ["구입하다", "팔다", "판매하다", "버리다"],
             answer: 0,
-            explanation: "'사다'의 비슷한 말은 '구입하다'입니다."
+            explanation: "The synonym for '사다' (to buy) is '구입하다' (to purchase)."
         },
         {
             id: 43,
@@ -434,7 +434,7 @@ window.allExams["exam8"] = {
             word: "체류하다",
             options: ["머무다", "떠나다", "이동하다", "질주하다"],
             answer: 0,
-            explanation: "'체류하다'의 비슷한 말은 '머무다'입니다."
+            explanation: "The synonym for '체류하다' (to stay) is '머무다' (to stay/linger)."
         },
         {
             id: 44,
@@ -444,7 +444,7 @@ window.allExams["exam8"] = {
             word: "알아듣다",
             options: ["이해하다", "오해하다", "모르다", "무시하다"],
             answer: 0,
-            explanation: "'알아듣다'의 비슷한 말은 '이해하다'입니다."
+            explanation: "The synonym for '알아듣다' (to understand) is '이해하다' (to understand)."
         },
         {
             id: 45,
@@ -454,7 +454,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "버리다", "바꾸다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to observe) is '준수하다' (to comply with)."
         },
         {
             id: 46,
@@ -464,7 +464,7 @@ window.allExams["exam8"] = {
             word: "보내다",
             options: ["받다", "발송하다", "전송하다", "부치다"],
             answer: 0,
-            explanation: "'보내다'의 반댓말은 '받다'입니다."
+            explanation: "The antonym of '보내다' (to send) is '받다' (to receive)."
         },
         {
             id: 47,
@@ -474,7 +474,7 @@ window.allExams["exam8"] = {
             word: "출발하다",
             options: ["떠나다", "도착하다", "멈추다", "돌아오다"],
             answer: 0,
-            explanation: "'출발하다'의 비슷한 말은 '떠나다'입니다."
+            explanation: "The synonym for '출발하다' (to depart) is '떠나다' (to leave)."
         },
         {
             id: 48,
@@ -484,7 +484,7 @@ window.allExams["exam8"] = {
             word: "적재하다",
             options: ["상차하다", "하차하다", "내리다", "비우다"],
             answer: 0,
-            explanation: "'적재하다'의 비슷한 말은 '상차하다'입니다."
+            explanation: "The synonym for '적재하다' (to load) is '상차하다' (to load onto a vehicle)."
         },
         {
             id: 49,
@@ -494,7 +494,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["재작하다", "부수다", "철거하다", "해체하다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '재작하다'입니다."
+            explanation: "The synonym for '만들다' (to make) is '재작하다' (to manufacture/produce)."
         },
         {
             id: 50,
@@ -504,7 +504,7 @@ window.allExams["exam8"] = {
             word: "꾸미다",
             options: ["준비하다", "없애다", "버리다", "망치다"],
             answer: 0,
-            explanation: "'챙기다'의 비슷한 말은 '준비하다'입니다."
+            explanation: "The synonym for '챙기다/꾸미다' (to prepare/챙기다) is '준비하다' (to prepare)."
         },
         {
             id: 51,
@@ -514,7 +514,7 @@ window.allExams["exam8"] = {
             word: "도착하다",
             options: ["출발하다", "이르다", "도착", "골인"],
             answer: 0,
-            explanation: "'도착하다'의 반댓말은 '출발하다'입니다."
+            explanation: "The antonym of '도착하다' (to arrive) is '출발하다' (to depart)."
         },
         {
             id: 52,
@@ -524,7 +524,7 @@ window.allExams["exam8"] = {
             word: "구부리다",
             options: ["휘다", "펴다", "늘리다", "자르다"],
             answer: 0,
-            explanation: "'구부리다'의 비슷한 말은 '휘다'입니다."
+            explanation: "The synonym for '구부리다' (to bend) is '휘다' (to curve/bend)."
         },
         {
             id: 53,
@@ -534,7 +534,7 @@ window.allExams["exam8"] = {
             word: "정리하다",
             options: ["정돈하다", "어지럽히다", "망치다", "흩트리다"],
             answer: 0,
-            explanation: "'정리하다'의 비슷한 말은 '정돈하다'입니다."
+            explanation: "The synonym for '정리하다' (to organize) is '정돈하다' (to tidy up)."
         },
         {
             id: 54,
@@ -544,7 +544,7 @@ window.allExams["exam8"] = {
             word: "팔다",
             options: ["사다", "주다", "빌리다", "보내다"],
             answer: 0,
-            explanation: "'팔다'의 반댓말은 '사다'입니다."
+            explanation: "The antonym of '팔다' (to sell) is '사다' (to buy)."
         },
         {
             id: 55,
@@ -554,7 +554,7 @@ window.allExams["exam8"] = {
             word: "올라가다",
             options: ["내려가다", "상승하다", "오르기", "등산"],
             answer: 0,
-            explanation: "'올라가다'의 반댓말은 '내려가다'입니다."
+            explanation: "The antonym of '올라가다' (to go up) is '내려가다' (to go down)."
         },
         {
             id: 56,
@@ -564,7 +564,7 @@ window.allExams["exam8"] = {
             word: "끝내다",
             options: ["마치다", "시작하다", "열다", "올리다"],
             answer: 0,
-            explanation: "'끝내다'의 비슷한 말은 '마치다'입니다."
+            explanation: "The synonym for '끝내다' (to finish) is '마치다' (to finish/complete)."
         },
         {
             id: 57,
@@ -574,7 +574,7 @@ window.allExams["exam8"] = {
             word: "인사하다",
             options: ["절하다", "외면하다", "도망치다", "싸우다"],
             answer: 0,
-            explanation: "'인사하다'의 비슷한 말은 '절하다'입니다."
+            explanation: "The synonym for '인사하다' (to greet) is '절하다' (to bow)."
         },
         {
             id: 58,
@@ -584,7 +584,7 @@ window.allExams["exam8"] = {
             word: "고용하다",
             options: ["채용하다", "해고하다", "그만두다", "자르다"],
             answer: 0,
-            explanation: "'고용하다'의 비슷한 말은 '채용하다'입니다."
+            explanation: "The synonym for '고용하다' (to employ) is '채용하다' (to hire/recruit)."
         },
         {
             id: 59,
@@ -594,7 +594,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["어기다", "따르다", "준수하다", "엄수하다"],
             answer: 0,
-            explanation: "'지키다'의 반댓말은 '어기다'입니다."
+            explanation: "The antonym of '지키다' (to keep) is '어기다' (to break/violate)."
         },
         {
             id: 60,
@@ -604,7 +604,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["개설하다", "폐쇄하다", "철거하다", "부수다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '개설하다'입니다."
+            explanation: "The synonym for '만들다' (to create/open) is '개설하다' (to establish/open)."
         },
         {
             id: 61,
@@ -614,7 +614,7 @@ window.allExams["exam8"] = {
             word: "기르다",
             options: ["키우다", "죽이다", "버리다", "팔다"],
             answer: 0,
-            explanation: "'기르다'의 비슷한 말은 '키우다'입니다."
+            explanation: "The synonym for '기르다' (to raise/grow) is '키우다' (to raise/grow)."
         },
         {
             id: 62,
@@ -624,7 +624,7 @@ window.allExams["exam8"] = {
             word: "고치다",
             options: ["보수하다", "망치다", "파손하다", "부수다"],
             answer: 0,
-            explanation: "'고치다'의 비슷한 말은 '보수하다'입니다."
+            explanation: "The synonym for '고치다' (to repair) is '보수하다' (to repair/renovate)."
         },
         {
             id: 63,
@@ -634,7 +634,7 @@ window.allExams["exam8"] = {
             word: "내려가다",
             options: ["하강하다", "상승하다", "오르다", "뛰다"],
             answer: 0,
-            explanation: "'내려가다'의 비슷한 말은 '하강하다'입니다."
+            explanation: "The synonym for '내려가다' (to go down) is '하강하다' (to descend)."
         },
         {
             id: 64,
@@ -644,7 +644,7 @@ window.allExams["exam8"] = {
             word: "자르다",
             options: ["오리다", "붙이다", "잇다", "모으다"],
             answer: 0,
-            explanation: "'자르다'의 비슷한 말은 '오리다'입니다."
+            explanation: "The synonym for '자르다' (to cut) is '오리다' (to cut out)."
         },
         {
             id: 65,
@@ -654,7 +654,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "파기하다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to obey) is '준수하다' (to comply with)."
         },
         {
             id: 66,
@@ -664,7 +664,7 @@ window.allExams["exam8"] = {
             word: "옮기다",
             options: ["운반하다", "멈추다", "머무다", "정지하다"],
             answer: 0,
-            explanation: "'옮기다'의 비슷한 말은 '운반하다'입니다."
+            explanation: "The synonym for '옮기다' (to move/transport) is '운반하다' (to transport)."
         },
         {
             id: 67,
@@ -674,7 +674,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "거부하다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 68,
@@ -684,7 +684,7 @@ window.allExams["exam8"] = {
             word: "달리다",
             options: ["뛰다", "멈추다", "걷다", "앉다"],
             answer: 0,
-            explanation: "'달리다'의 비슷한 말은 '뛰다'입니다."
+            explanation: "The synonym for '달리다' (to run) is '뛰다' (to run/jump)."
         },
         {
             id: 69,
@@ -694,7 +694,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["부수다", "개설하다", "생성하다", "구축하다"],
             answer: 0,
-            explanation: "'만들다'의 반댓말은 '부수다'입니다."
+            explanation: "The antonym of '만들다' (to make) is '부수다' (to break)."
         },
         {
             id: 70,
@@ -704,7 +704,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["변경하다", "유지하다", "고정하다", "보존하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '변경하다'입니다."
+            explanation: "The synonym for '바꾸다' (to change) is '변경하다' (to alter/change)."
         },
         {
             id: 71,
@@ -714,7 +714,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["환전하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '환전하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange currency) is '환전하다' (to exchange money)."
         },
         {
             id: 72,
@@ -724,7 +724,7 @@ window.allExams["exam8"] = {
             word: "내다",
             options: ["뚫다", "막다", "폐쇄하다", "채우다"],
             answer: 0,
-            explanation: "'내다'의 비슷한 말은 '뚫다'입니다."
+            explanation: "The synonym for '내다' (to make a hole/path) is '뚫다' (to drill/pierce)."
         },
         {
             id: 73,
@@ -734,7 +734,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 74,
@@ -744,7 +744,7 @@ window.allExams["exam8"] = {
             word: "붓다",
             options: ["따르다", "말리다", "태우다", "비우다"],
             answer: 0,
-            explanation: "'붓다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '붓다' (to pour) is '따르다' (to pour)."
         },
         {
             id: 75,
@@ -754,7 +754,7 @@ window.allExams["exam8"] = {
             word: "사다",
             options: ["구입하다", "팔다", "판매하다", "버리다"],
             answer: 0,
-            explanation: "'사다'의 비슷한 말은 '구입하다'입니다."
+            explanation: "The synonym for '사다' (to buy) is '구입하다' (to purchase)."
         },
         {
             id: 76,
@@ -764,7 +764,7 @@ window.allExams["exam8"] = {
             word: "끊다",
             options: ["차단하다", "잇다", "연결하다", "붙이다"],
             answer: 0,
-            explanation: "'끊다'의 비슷한 말은 '차단하다'입니다."
+            explanation: "The synonym for '끊다' (to cut off / disconnect) is '차단하다' (to shut off / block)."
         },
         {
             id: 77,
@@ -774,7 +774,7 @@ window.allExams["exam8"] = {
             word: "옮기다",
             options: ["나르다", "멈추다", "머무다", "정지하다"],
             answer: 0,
-            explanation: "'옮기다'의 비슷한 말은 '나르다'입니다."
+            explanation: "The synonym for '옮기다' (to carry/move) is '나르다' (to carry/deliver)."
         },
         {
             id: 78,
@@ -784,7 +784,7 @@ window.allExams["exam8"] = {
             word: "기르다",
             options: ["재배하다", "없애다", "팔다", "버리다"],
             answer: 0,
-            explanation: "'기르다'의 비슷한 말은 '재배하다'입니다."
+            explanation: "The synonym for '기르다' (to grow plants) is '재배하다' (to cultivate)."
         },
         {
             id: 79,
@@ -794,7 +794,7 @@ window.allExams["exam8"] = {
             word: "사다",
             options: ["구매하다", "팔다", "판매하다", "버리다"],
             answer: 0,
-            explanation: "'사다'의 비슷한 말은 '구매하다'입니다."
+            explanation: "The synonym for '사다' (to buy) is '구매하다' (to purchase)."
         },
         {
             id: 80,
@@ -804,7 +804,7 @@ window.allExams["exam8"] = {
             word: "조심하다",
             options: ["주의하다", "방심하다", "무시하다", "까먹다"],
             answer: 0,
-            explanation: "'조심하다'의 비슷한 말은 '주의하다'입니다."
+            explanation: "The synonym for '조심하다' (to be careful) is '주의하다' (to pay attention / watch out)."
         },
         {
             id: 81,
@@ -814,7 +814,7 @@ window.allExams["exam8"] = {
             word: "보내다",
             options: ["부치다", "받다", "쥐다", "간직하다"],
             answer: 0,
-            explanation: "'보내다'의 비슷한 말은 '부치다'입니다."
+            explanation: "The synonym for '보내다' (to send/mail) is '부치다' (to mail/send)."
         },
         {
             id: 82,
@@ -824,7 +824,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to observe) is '준수하다' (to comply with)."
         },
         {
             id: 83,
@@ -834,7 +834,7 @@ window.allExams["exam8"] = {
             word: "고용하다",
             options: ["채용하다", "해고하다", "그만두다", "자르다"],
             answer: 0,
-            explanation: "'고용하다'의 비슷한 말은 '채용하다'입니다."
+            explanation: "The synonym for '고용하다' (to employ) is '채용하다' (to hire)."
         },
         {
             id: 84,
@@ -844,7 +844,7 @@ window.allExams["exam8"] = {
             word: "설치하다",
             options: ["세우다", "철거하다", "제거하다", "부수다"],
             answer: 0,
-            explanation: "'설치하다'의 비슷한 말은 '세우다'입니다."
+            explanation: "The synonym for '설치하다' (to install) is '세우다' (to erect)."
         },
         {
             id: 85,
@@ -854,7 +854,7 @@ window.allExams["exam8"] = {
             word: "감소하다",
             options: ["줄다", "늘다", "증가하다", "확대하다"],
             answer: 0,
-            explanation: "'감소하다'의 비슷한 말은 '줄다'입니다."
+            explanation: "The synonym for '감소하다' (to decrease) is '줄다' (to shrink/decrease)."
         },
         {
             id: 86,
@@ -864,7 +864,7 @@ window.allExams["exam8"] = {
             word: "일하다",
             options: ["근무하다", "쉬다", "놀다", "자다"],
             answer: 0,
-            explanation: "'일하다'의 비슷한 말은 '근무하다'입니다."
+            explanation: "The synonym for '일하다' (to work) is '근무하다' (to work)."
         },
         {
             id: 87,
@@ -874,7 +874,7 @@ window.allExams["exam8"] = {
             word: "쓰다",
             options: ["적다", "지우다", "읽다", "버리다"],
             answer: 0,
-            explanation: "'쓰다'의 비슷한 말은 '적다'입니다."
+            explanation: "The synonym for '쓰다' (to write down) is '적다' (to write down)."
         },
         {
             id: 88,
@@ -884,7 +884,7 @@ window.allExams["exam8"] = {
             word: "치다",
             options: ["뿌리다", "거두다", "담다", "줍다"],
             answer: 0,
-            explanation: "'치다'의 비슷한 말은 '뿌리다'입니다."
+            explanation: "The synonym for '치다' (to spray pesticides) is '뿌리다' (to spray/sprinkle)."
         },
         {
             id: 89,
@@ -894,7 +894,7 @@ window.allExams["exam8"] = {
             word: "인사하다",
             options: ["절하다", "외면하다", "무시하다", "도망치다"],
             answer: 0,
-            explanation: "'인사하다'의 비슷한 말은 '절하다'입니다."
+            explanation: "The synonym for '인사하다' (to greet) is '절하다' (to bow)."
         },
         {
             id: 90,
@@ -904,7 +904,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["갈다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '갈다'입니다."
+            explanation: "The synonym for '바꾸다' (to replace/change) is '갈다' (to change/replace)."
         },
         {
             id: 91,
@@ -914,7 +914,7 @@ window.allExams["exam8"] = {
             word: "체류하다",
             options: ["묵다", "떠나다", "이동하다", "질주하다"],
             answer: 0,
-            explanation: "'체류하다'의 비슷한 말은 '묵다'입니다."
+            explanation: "The synonym for '체류하다' (to stay) is '묵다' (to stay at a lodging)."
         },
         {
             id: 92,
@@ -924,7 +924,7 @@ window.allExams["exam8"] = {
             word: "찍다",
             options: ["촬영하다", "지우다", "태우다", "버리다"],
             answer: 0,
-            explanation: "'찍다'의 비슷한 말은 '촬영하다'입니다."
+            explanation: "The synonym for '찍다' (to take a photo) is '촬영하다' (to film/photograph)."
         },
         {
             id: 93,
@@ -934,7 +934,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 94,
@@ -944,7 +944,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["생산하다", "부수다", "파괴하다", "철거하다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '생산하다'입니다."
+            explanation: "The synonym for '만들다' (to produce) is '생산하다' (to produce)."
         },
         {
             id: 95,
@@ -954,7 +954,7 @@ window.allExams["exam8"] = {
             word: "질문하다",
             options: ["물어보다", "대답하다", "설명하다", "무시하다"],
             answer: 0,
-            explanation: "'문의하다'의 비슷한 말은 '물어보다'입니다."
+            explanation: "The synonym for '문의하다/질문하다' (to inquire) is '물어보다' (to ask)."
         },
         {
             id: 96,
@@ -964,7 +964,7 @@ window.allExams["exam8"] = {
             word: "구별하다",
             options: ["분류하다", "합치다", "섞다", "모으다"],
             answer: 0,
-            explanation: "'구별하다'의 비슷한 말은 '분류하다'입니다."
+            explanation: "The synonym for '구별하다' (to classify/distinguish) is '분류하다' (to classify)."
         },
         {
             id: 97,
@@ -974,7 +974,7 @@ window.allExams["exam8"] = {
             word: "갈다",
             options: ["연마하다", "붙이다", "잇다", "합치다"],
             answer: 0,
-            explanation: "'갈다'의 비슷한 말은 '연마하다'입니다."
+            explanation: "The synonym for '갈다' (to sharpen/grind) is '연마하다' (to polish/grind)."
         },
         {
             id: 98,
@@ -984,7 +984,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["교환하다", "유지하다", "고정하다", "보존하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '교환하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange) is '교환하다' (to exchange)."
         },
         {
             id: 99,
@@ -994,7 +994,7 @@ window.allExams["exam8"] = {
             word: "쉬다",
             options: ["휴식하다", "일하다", "운동하다", "달리다"],
             answer: 0,
-            explanation: "'쉬다'의 비슷한 말은 '휴식하다'입니다."
+            explanation: "The synonym for '쉬다' (to rest) is '휴식하다' (to take a rest)."
         },
         {
             id: 100,
@@ -1004,7 +1004,7 @@ window.allExams["exam8"] = {
             word: "부여하다",
             options: ["주다", "빼앗다", "숨기다", "감추다"],
             answer: 0,
-            explanation: "'부여하다'의 비슷한 말은 '주다'입니다."
+            explanation: "The synonym for '부여하다' (to give) is '주다' (to give)."
         },
         {
             id: 101,
@@ -1014,7 +1014,7 @@ window.allExams["exam8"] = {
             word: "고용하다",
             options: ["뽑다", "해고하다", "그만두다", "자르다"],
             answer: 0,
-            explanation: "'고용하다'의 비슷한 말은 '뽑다'입니다."
+            explanation: "The synonym for '고용하다' (to hire/employ) is '뽑다' (to select/hire)."
         },
         {
             id: 102,
@@ -1024,7 +1024,7 @@ window.allExams["exam8"] = {
             word: "전화하다",
             options: ["전화를 걸다", "전화를 끊다", "무시하다", "침묵하다"],
             answer: 0,
-            explanation: "'전화하다'의 비슷한 말은 '전화를 걸다'입니다."
+            explanation: "The synonym for '전화하다' (to make a phone call) is '전화를 걸다' (to make a call)."
         },
         {
             id: 103,
@@ -1034,7 +1034,7 @@ window.allExams["exam8"] = {
             word: "내려가다",
             options: ["떨어지다", "상승하다", "오르다", "뛰다"],
             answer: 0,
-            explanation: "'내려가다'의 비슷한 말은 '떨어지다'입니다."
+            explanation: "The synonym for '내려가다/떨어지다' (to drop/fall) is '떨어지다' (to fall/drop)."
         },
         {
             id: 104,
@@ -1044,7 +1044,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["생산하다", "부수다", "파괴하다", "철거하다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '생산하다'입니다."
+            explanation: "The synonym for '만들다' (to produce) is '생산하다' (to produce)."
         },
         {
             id: 105,
@@ -1054,7 +1054,7 @@ window.allExams["exam8"] = {
             word: "원하다",
             options: ["희망하다", "포기하다", "버리다", "미루다"],
             answer: 0,
-            explanation: "'원하다'의 비슷한 말은 '희망하다'입니다."
+            explanation: "The synonym for '원하다' (to hope/want) is '희망하다' (to hope)."
         },
         {
             id: 106,
@@ -1064,7 +1064,7 @@ window.allExams["exam8"] = {
             word: "만지다",
             options: ["손대다", "멀어지다", "놓다", "피하다"],
             answer: 0,
-            explanation: "'만지다'의 비슷한 말은 '손대다'입니다."
+            explanation: "The synonym for '만지다' (to touch) is '손대다' (to touch)."
         },
         {
             id: 107,
@@ -1074,7 +1074,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "파기하다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 108,
@@ -1084,7 +1084,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["교체하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '교체하다'입니다."
+            explanation: "The synonym for '바꾸다' (to replace) is '교체하다' (to replace)."
         },
         {
             id: 109,
@@ -1094,7 +1094,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["환전하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '환전하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange) is '환전하다' (to exchange currency)."
         },
         {
             id: 110,
@@ -1104,7 +1104,7 @@ window.allExams["exam8"] = {
             word: "기르다",
             options: ["사육하다", "팔다", "버리다", "줄이다"],
             answer: 0,
-            explanation: "'기르다'의 비슷한 말은 '사육하다'입니다."
+            explanation: "The synonym for '기르다' (to breed) is '사육하다' (to breed)."
         },
         {
             id: 111,
@@ -1114,7 +1114,7 @@ window.allExams["exam8"] = {
             word: "죽다",
             options: ["사망하다", "살다", "태어나다", "성장하다"],
             answer: 0,
-            explanation: "'죽다'의 비슷한 말은 '사망하다'입니다."
+            explanation: "The synonym for '죽다' (to die) is '사망하다' (to pass away / die)."
         },
         {
             id: 112,
@@ -1124,7 +1124,7 @@ window.allExams["exam8"] = {
             word: "질문하다",
             options: ["물어보다", "대답하다", "설명하다", "무시하다"],
             answer: 0,
-            explanation: "'문의하다'의 비슷한 말은 '물어보다'입니다."
+            explanation: "The synonym for '질문하다' (to ask) is '물어보다' (to ask)."
         },
         {
             id: 113,
@@ -1134,7 +1134,7 @@ window.allExams["exam8"] = {
             word: "붓다",
             options: ["혼합하다", "말리다", "태우다", "비우다"],
             answer: 0,
-            explanation: "'붓다'의 비슷한 말은 '혼합하다'입니다."
+            explanation: "The synonym for '붓다' (to mix/pour) is '혼합하다' (to mix/blend)."
         },
         {
             id: 114,
@@ -1144,7 +1144,7 @@ window.allExams["exam8"] = {
             word: "출근하다",
             options: ["회사에 가다", "퇴근하다", "결근하다", "쉬다"],
             answer: 0,
-            explanation: "'출근하다'의 비슷한 말은 '회사에 가다'입니다."
+            explanation: "The synonym for '출근하다' (to go to work) is '회사에 가다' (to go to the office/company)."
         },
         {
             id: 115,
@@ -1154,7 +1154,7 @@ window.allExams["exam8"] = {
             word: "치다",
             options: ["주다", "거두다", "담다", "줍다"],
             answer: 0,
-            explanation: "'치다'의 비슷한 말은 '주다'입니다."
+            explanation: "The synonym for '치다' (to give/yield) is '주다' (to give)."
         },
         {
             id: 116,
@@ -1164,7 +1164,7 @@ window.allExams["exam8"] = {
             word: "타다",
             options: ["받다", "주다", "내리다", "잃다"],
             answer: 0,
-            explanation: "'타다'의 비슷한 말은 '받다'입니다."
+            explanation: "The synonym for '타다' (to receive) is '받다' (to receive)."
         },
         {
             id: 117,
@@ -1174,7 +1174,7 @@ window.allExams["exam8"] = {
             word: "사다",
             options: ["구입하다", "팔다", "판매하다", "버리다"],
             answer: 0,
-            explanation: "'사다'의 비슷한 말은 '구입하다'입니다."
+            explanation: "The synonym for '사다' (to buy) is '구입하다' (to purchase)."
         },
         {
             id: 118,
@@ -1184,7 +1184,7 @@ window.allExams["exam8"] = {
             word: "계산하다",
             options: ["지불하다", "받다", "훔치다", "숨기다"],
             answer: 0,
-            explanation: "'계산하다'의 비슷한 말은 '지불하다'입니다."
+            explanation: "The synonym for '계산하다' (to pay/calculate) is '지불하다' (to pay)."
         },
         {
             id: 119,
@@ -1194,7 +1194,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["개설하다", "폐쇄하다", "철거하다", "부수다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '개설하다'입니다."
+            explanation: "The synonym for '만들다' (to open/create) is '개설하다' (to establish)."
         },
         {
             id: 120,
@@ -1204,7 +1204,7 @@ window.allExams["exam8"] = {
             word: "고용하다",
             options: ["채용하다", "해고하다", "그만두다", "자르다"],
             answer: 0,
-            explanation: "'고용하다'의 비슷한 말은 '채용하다'입니다."
+            explanation: "The synonym for '고용하다' (to employ) is '채용하다' (to hire)."
         },
         {
             id: 121,
@@ -1214,7 +1214,7 @@ window.allExams["exam8"] = {
             word: "입금하다",
             options: ["돈을 넣다", "출금하다", "찾다", "쓰다"],
             answer: 0,
-            explanation: "'입금하다'의 비슷한 말은 '돈을 넣다'입니다."
+            explanation: "The synonym for '입금하다' (to deposit) is '돈을 넣다' (to put money in)."
         },
         {
             id: 122,
@@ -1224,7 +1224,7 @@ window.allExams["exam8"] = {
             word: "알아듣다",
             options: ["이해하다", "오해하다", "모르다", "무시하다"],
             answer: 0,
-            explanation: "'알아듣다'의 비슷한 말은 '이해하다'입니다."
+            explanation: "The synonym for '알아듣다' (to understand) is '이해하다' (to understand)."
         },
         {
             id: 123,
@@ -1234,7 +1234,7 @@ window.allExams["exam8"] = {
             word: "전화하다",
             options: ["통화하다", "끊다", "외면하다", "침묵하다"],
             answer: 0,
-            explanation: "'전화하다'의 비슷한 말은 '통화하다'입니다."
+            explanation: "The synonym for '전화하다' (to call) is '통화하다' (to talk on the phone)."
         },
         {
             id: 124,
@@ -1244,7 +1244,7 @@ window.allExams["exam8"] = {
             word: "주다",
             options: ["드리다", "받다", "빼앗다", "숨기다"],
             answer: 0,
-            explanation: "'주다'의 비슷한 말은 '드리다'입니다."
+            explanation: "The synonym for '주다' (to give - honorific) is '드리다' (to give politely)."
         },
         {
             id: 125,
@@ -1254,7 +1254,7 @@ window.allExams["exam8"] = {
             word: "방문하다",
             options: ["가다", "떠나다", "도망치다", "외면하다"],
             answer: 0,
-            explanation: "'방문하다'의 비슷한 말은 '가다'입니다."
+            explanation: "The synonym for '방문하다' (to visit) is '가다' (to go)."
         },
         {
             id: 126,
@@ -1264,7 +1264,7 @@ window.allExams["exam8"] = {
             word: "죽다",
             options: ["돌아가다", "살다", "태어나다", "성장하다"],
             answer: 0,
-            explanation: "'죽다'의 비슷한 말은 '돌아가다'입니다."
+            explanation: "The synonym for '죽다' (to pass away - polite) is '돌아가다' (to pass away)."
         },
         {
             id: 127,
@@ -1274,7 +1274,7 @@ window.allExams["exam8"] = {
             word: "계산하다",
             options: ["내다", "받다", "훔치다", "숨기다"],
             answer: 0,
-            explanation: "'계산하다'의 비슷한 말은 '내다'입니다."
+            explanation: "The synonym for '계산하다' (to pay/settle) is '내다' (to pay)."
         },
         {
             id: 128,
@@ -1284,7 +1284,7 @@ window.allExams["exam8"] = {
             word: "중단하다",
             options: ["그치다", "시작하다", "계속하다", "진행하다"],
             answer: 0,
-            explanation: "'중단하다'의 비슷한 말은 '그치다'입니다."
+            explanation: "The synonym for '중단하다' (to stop/discontinue) is '그치다' (to stop/cease)."
         },
         {
             id: 129,
@@ -1294,7 +1294,7 @@ window.allExams["exam8"] = {
             word: "만들다",
             options: ["재작하다", "부수다", "철거하다", "해체하다"],
             answer: 0,
-            explanation: "'만들다'의 비슷한 말은 '재작하다'입니다."
+            explanation: "The synonym for '만들다' (to manufacture) is '재작하다' (to manufacture)."
         },
         {
             id: 130,
@@ -1304,7 +1304,7 @@ window.allExams["exam8"] = {
             word: "배우다",
             options: ["공부하다", "가르치다", "설명하다", "잊다"],
             answer: 0,
-            explanation: "'배우다'의 비슷한 말은 '공부하다'입니다."
+            explanation: "The synonym for '배우다' (to learn) is '공부하다' (to study)."
         },
         {
             id: 131,
@@ -1314,7 +1314,7 @@ window.allExams["exam8"] = {
             word: "떨어지다",
             options: ["빠지다", "올라가다", "상승하다", "솟다"],
             answer: 0,
-            explanation: "'떨어지다'의 비슷한 말은 '빠지다'입니다."
+            explanation: "The synonym for '떨어지다' (to drop/fall in) is '빠지다' (to fall into/be missing)."
         },
         {
             id: 132,
@@ -1324,7 +1324,7 @@ window.allExams["exam8"] = {
             word: "중단하다",
             options: ["멈추다", "시작하다", "계속하다", "진행하다"],
             answer: 0,
-            explanation: "'중단하다'의 비슷한 말은 '멈추다'입니다."
+            explanation: "The synonym for '중단하다' (to halt) is '멈추다' (to stop)."
         },
         {
             id: 133,
@@ -1334,7 +1334,7 @@ window.allExams["exam8"] = {
             word: "보수하다",
             options: ["수리하다", "망치다", "파손하다", "부수다"],
             answer: 0,
-            explanation: "'보수하다'의 비슷한 말은 '수리하다'입니다."
+            explanation: "The synonym for '보수하다' (to repair) is '수리하다' (to repair)."
         },
         {
             id: 134,
@@ -1344,7 +1344,7 @@ window.allExams["exam8"] = {
             word: "맞추다",
             options: ["조정하다", "어긋나다", "틀리다", "흐트러뜨리다"],
             answer: 0,
-            explanation: "'맞추다'의 비슷한 말은 '조정하다'입니다."
+            explanation: "The synonym for '맞추다' (to adjust/align) is '조정하다' (to adjust/regulate)."
         },
         {
             id: 135,
@@ -1354,7 +1354,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "파기하다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 136,
@@ -1364,7 +1364,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 137,
@@ -1374,7 +1374,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 138,
@@ -1384,7 +1384,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 139,
@@ -1394,7 +1394,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["교환하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '교환하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange) is '교환하다' (to exchange)."
         },
         {
             id: 140,
@@ -1404,7 +1404,7 @@ window.allExams["exam8"] = {
             word: "내다",
             options: ["뚫다", "막다", "폐쇄하다", "채우다"],
             answer: 0,
-            explanation: "'내다'의 비슷한 말은 '뚫다'입니다."
+            explanation: "The synonym for '내다' (to make a gap/hole) is '뚫다' (to make a hole)."
         },
         {
             id: 141,
@@ -1414,7 +1414,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 142,
@@ -1424,7 +1424,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 143,
@@ -1434,7 +1434,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["갈다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '갈다'입니다."
+            explanation: "The synonym for '바꾸다' (to change) is '갈다' (to change)."
         },
         {
             id: 144,
@@ -1444,7 +1444,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["교환하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '교환하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange) is '교환하다' (to exchange)."
         },
         {
             id: 145,
@@ -1454,7 +1454,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 146,
@@ -1464,7 +1464,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["따르다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '따르다'입니다."
+            explanation: "The synonym for '지키다' (to follow) is '따르다' (to follow)."
         },
         {
             id: 147,
@@ -1474,7 +1474,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 148,
@@ -1484,7 +1484,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["환전하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '환전하다'입니다."
+            explanation: "The synonym for '바꾸다' (to exchange) is '환전하다' (to exchange currency)."
         },
         {
             id: 149,
@@ -1494,7 +1494,7 @@ window.allExams["exam8"] = {
             word: "지키다",
             options: ["준수하다", "어기다", "위반하다", "버리다"],
             answer: 0,
-            explanation: "'지키다'의 비슷한 말은 '준수하다'입니다."
+            explanation: "The synonym for '지키다' (to comply) is '준수하다' (to comply with)."
         },
         {
             id: 150,
@@ -1504,7 +1504,7 @@ window.allExams["exam8"] = {
             word: "바꾸다",
             options: ["교체하다", "지키다", "유지하다", "고정하다"],
             answer: 0,
-            explanation: "'바꾸다'의 비슷한 말은 '교체하다'입니다."
+            explanation: "The synonym for '바꾸다' (to replace) is '교체하다' (to replace)."
         }
     ]
 };
