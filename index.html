@@ -88,6 +88,7 @@
     <script src="exam7.js"></script>
     <script src="exam8.js"></script>
     <script src="exam9.js"></script>
+    <script src="exam10.js"></script>
 
     <!-- App Logic -->
     <script>
@@ -107,33 +108,55 @@
             document.getElementById('resultView').classList.add('hidden');
             document.getElementById('homeBtn').classList.add('hidden');
 
-            const examKeys = ['exam1', 'exam2', 'exam3', 'exam4', 'exam5', 'exam6', 'exam7', 'exam8', 'exam9'];
+            const examKeys = Object.keys(window.allExams || {}).sort((a, b) => {
+                return parseInt(a.replace('exam', '')) - parseInt(b.replace('exam', ''));
+            });
             
             examKeys.forEach(key => {
-                const exam = window.allExams && window.allExams[key];
+                const exam = window.allExams[key];
                 if (!exam) return;
 
-                const examNum = key.replace('exam', 'Exam '); // Generates "Exam 1", "Exam 2", etc.
-
+                const examNum = key.replace('exam', 'Exam ');
                 const card = document.createElement('div');
                 card.className = 'bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between';
-                card.innerHTML = `
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="flex items-center gap-2">
-                                <span class="px-2.5 py-1 bg-slate-900 text-white font-bold text-xs rounded-lg">${examNum}</span>
-                                <span class="px-3 py-1 bg-indigo-100 text-indigo-700 font-semibold text-xs rounded-lg uppercase tracking-wider">${exam.badge || 'Exam'}</span>
+
+                if (exam.isExternal) {
+                    card.innerHTML = `
+                        <div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="flex items-center gap-2">
+                                    <span class="px-2.5 py-1 bg-slate-900 text-white font-bold text-xs rounded-lg">${examNum}</span>
+                                    <span class="px-3 py-1 bg-amber-100 text-amber-700 font-semibold text-xs rounded-lg uppercase tracking-wider">${exam.badge || 'External'}</span>
+                                </div>
+                                <span class="text-xs font-medium text-slate-400">External Test</span>
                             </div>
-                            <span class="text-xs font-medium text-slate-400">${exam.questions.length} Questions</span>
+                            <h3 class="text-lg font-bold text-slate-900 mb-1">${exam.title}</h3>
+                            <p class="text-xs font-medium text-indigo-600 mb-3">${exam.subtitle || ''}</p>
+                            <p class="text-slate-600 text-sm line-clamp-2 mb-6">${exam.description || ''}</p>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 mb-1">${exam.title}</h3>
-                        <p class="text-xs font-medium text-indigo-600 mb-3">${exam.subtitle || ''}</p>
-                        <p class="text-slate-600 text-sm line-clamp-2 mb-6">${exam.description || ''}</p>
-                    </div>
-                    <button onclick="startExam('${key}')" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition text-sm shadow-sm">
-                        Start Test
-                    </button>
-                `;
+                        <a href="${exam.url}" target="_blank" class="block w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition text-sm shadow-sm text-center">
+                            Open Mock Test ↗
+                        </a>
+                    `;
+                } else {
+                    card.innerHTML = `
+                        <div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="flex items-center gap-2">
+                                    <span class="px-2.5 py-1 bg-slate-900 text-white font-bold text-xs rounded-lg">${examNum}</span>
+                                    <span class="px-3 py-1 bg-indigo-100 text-indigo-700 font-semibold text-xs rounded-lg uppercase tracking-wider">${exam.badge || 'Exam'}</span>
+                                </div>
+                                <span class="text-xs font-medium text-slate-400">${exam.questions.length} Questions</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900 mb-1">${exam.title}</h3>
+                            <p class="text-xs font-medium text-indigo-600 mb-3">${exam.subtitle || ''}</p>
+                            <p class="text-slate-600 text-sm line-clamp-2 mb-6">${exam.description || ''}</p>
+                        </div>
+                        <button onclick="startExam('${key}')" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition text-sm shadow-sm">
+                            Start Test
+                        </button>
+                    `;
+                }
                 grid.appendChild(card);
             });
         }
