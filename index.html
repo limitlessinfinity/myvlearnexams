@@ -78,28 +78,51 @@
         </div>
     </main>
 
-    <!-- Load all exam files in exact order -->
-    <script src="exam1.js"></script>
-    <script src="exam2.js"></script>
-    <script src="exam3.js"></script>
-    <script src="exam4.js"></script>
-    <script src="exam5.js"></script>
-    <script src="exam6.js"></script>
-    <script src="exam7.js"></script>
-    <script src="exam8.js"></script>
-    <script src="exam9.js"></script>
-    <script src="exam10.js"></script>
-    <script src="exam11.js"></script>
+    <!-- Automated Dynamic Exam Script Loader -->
+    <script>
+        function loadAllExams(index = 1, maxMissing = 3) {
+            let missingCount = 0;
+
+            function tryLoadNext(i) {
+                const script = document.createElement('script');
+                script.src = `exam${i}.js`;
+
+                script.onload = function() {
+                    // Successfully loaded, proceed to the next index
+                    tryLoadNext(i + 1);
+                };
+
+                script.onerror = function() {
+                    // File doesn't exist yet
+                    missingCount++;
+                    // Allow checking a couple more numbers ahead just in case files are non-sequential
+                    if (missingCount < maxMissing && i < 50) {
+                        tryLoadNext(i + 1);
+                    } else {
+                        // Finished loading all available exam files, now initialize dashboard
+                        if (typeof renderDashboard === 'function') {
+                            renderDashboard();
+                        }
+                    }
+                };
+
+                document.head.appendChild(script);
+            }
+
+            tryLoadNext(index);
+        }
+
+        // Start loading from exam1.js automatically when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAllExams(1);
+        });
+    </script>
 
     <!-- App Logic -->
     <script>
         let currentExam = null;
         let currentQuestionIndex = 0;
         let userAnswers = {};
-
-        document.addEventListener('DOMContentLoaded', () => {
-            renderDashboard();
-        });
 
         function renderDashboard() {
             const grid = document.getElementById('examGrid');
@@ -250,7 +273,7 @@
 
         function showResults() {
             let correctCount = 0;
-            currentExam.questions.forEach((q, idx) => {
+            currentExam.questions.questions.forEach((q, idx) => {
                 if (userAnswers[idx] === q.answer) {
                     correctCount++;
                 }
