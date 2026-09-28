@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLEARN Practice Exam Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold tracking-tight">VLEARN PRACTICE EXAM</h1>
+                <p class="text-indigo-200 text-sm mt-1">Select an exam module below to begin</p>
+            </div>
+            <button id="homeBtn" onclick="returnToDashboard()" class="hidden bg-indigo-500 hover:bg-indigo-400 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+                ← Back to Dashboard
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 py-8 w-full">
+        <!-- Dashboard View -->
+        <div id="dashboardView">
+            <div id="examGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Dynamically populated exam cards -->
+            </div>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quizView" class="hidden max-w-3xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-4 mb-6">
+                <span id="quizBadge" class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded-full"></span>
+                <span id="quizProgress" class="text-sm font-medium text-slate-500"></span>
+            </div>
+
+            <h2 id="questionTitle" class="text-lg sm:text-xl font-semibold text-slate-900 mb-6"></h2>
+            
+            <!-- Optional Word/Topic Display -->
+            <div id="questionMeta" class="mb-6 p-4 bg-slate-50 rounded-xl border border-slate-100 hidden">
+                <span id="metaTopic" class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1"></span>
+                <span id="metaWord" class="text-2xl font-bold text-slate-800"></span>
+            </div>
+
+            <!-- Options List -->
+            <div id="optionsList" class="space-y-3 mb-8"></div>
+
+            <!-- Explanation Box -->
+            <div id="explanationBox" class="hidden mb-6 p-4 rounded-xl bg-blue-50 border border-blue-100 text-blue-900 text-sm">
+                <span class="font-bold block mb-1">Explanation:</span>
+                <p id="explanationText"></p>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="flex justify-between items-center pt-4 border-t border-slate-100">
+                <button onclick="prevQuestion()" id="prevBtn" class="px-5 py-2.5 rounded-xl border border-slate-200 text-slate-600 font-medium hover:bg-slate-50 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                    Previous
+                </button>
+                <button onclick="nextQuestion()" id="nextBtn" class="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-sm transition">
+                    Next
+                </button>
+            </div>
+        </div>
+
+        <!-- Result View -->
+        <div id="resultView" class="hidden max-w-xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center">
+            <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                🎉
+            </div>
+            <h2 class="text-2xl font-bold text-slate-900 mb-2">Exam Completed!</h2>
+            <p id="resultScoreText" class="text-slate-600 mb-6 text-lg"></p>
+            <button onclick="returnToDashboard()" class="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition shadow-sm">
+                Return to Dashboard
+            </button>
+        </div>
+    </main>
+
+    <!-- Load all exam files in exact order -->
+    <script src="exam1.js"></script>
+    <script src="exam2.js"></script>
+    <script src="exam3.js"></script>
+    <script src="exam4.js"></script>
+    <script src="exam5.js"></script>
+    <script src="exam6.js"></script>
+    <script src="exam7.js"></script>
+    <script src="exam8.js"></script>
+    <script src="exam9.js"></script>
+
+    <!-- App Logic -->
+    <script>
+        let currentExam = null;
+        let currentQuestionIndex = 0;
+        let userAnswers = {};
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderDashboard();
+        });
+
+        function renderDashboard() {
+            const grid = document.getElementById('examGrid');
+            grid.innerHTML = '';
+            document.getElementById('dashboardView').classList.remove('hidden');
+            document.getElementById('quizView').classList.add('hidden');
+            document.getElementById('resultView').classList.add('hidden');
+            document.getElementById('homeBtn').classList.add('hidden');
+
+            const examKeys = ['exam1', 'exam2', 'exam3', 'exam4', 'exam5', 'exam6', 'exam7', 'exam8', 'exam9'];
+            
+            examKeys.forEach(key => {
+                const exam = window.allExams && window.allExams[key];
+                if (!exam) return;
+
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between';
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 font-semibold text-xs rounded-lg uppercase tracking-wider">${exam.badge || 'Exam'}</span>
+                            <span class="text-xs font-medium text-slate-400">${exam.questions.length} Questions</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">${exam.title}</h3>
+                        <p class="text-xs font-medium text-indigo-600 mb-3">${exam.subtitle || ''}</p>
+                        <p class="text-slate-600 text-sm line-clamp-2 mb-6">${exam.description || ''}</p>
+                    </div>
+                    <button onclick="startExam('${key}')" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition text-sm shadow-sm">
+                        Start Test
+                    </button>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function startExam(key) {
+            currentExam = window.allExams[key];
+            if (!currentExam) return;
+            currentQuestionIndex = 0;
+            userAnswers = {};
+
+            document.getElementById('dashboardView').classList.add('hidden');
+            document.getElementById('quizView').classList.remove('hidden');
+            document.getElementById('homeBtn').classList.remove('hidden');
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const q = currentExam.questions[currentQuestionIndex];
+            const total = currentExam.questions.length;
+
+            document.getElementById('quizBadge').innerText = currentExam.title;
+            document.getElementById('quizProgress').innerText = `Question ${currentQuestionIndex + 1} of ${total}`;
+            document.getElementById('questionTitle').innerText = q.title || q.q || `Question ${currentQuestionIndex + 1}`;
+
+            const metaBox = document.getElementById('questionMeta');
+            if (q.word) {
+                metaBox.classList.remove('hidden');
+                document.getElementById('metaTopic').innerText = q.topic || '';
+                document.getElementById('metaWord').innerText = q.word;
+            } else {
+                metaBox.classList.add('hidden');
+            }
+
+            const optionsList = document.getElementById('optionsList');
+            optionsList.innerHTML = '';
+
+            const savedAnswer = userAnswers[currentQuestionIndex];
+
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                let btnClass = 'w-full text-left p-4 rounded-xl border border-slate-200 font-medium text-slate-700 hover:bg-slate-50 transition flex items-center justify-between';
+                
+                if (savedAnswer !== undefined) {
+                    if (idx === q.answer) {
+                        btnClass = 'w-full text-left p-4 rounded-xl border border-emerald-300 bg-emerald-50 text-emerald-900 font-medium flex items-center justify-between';
+                    } else if (idx === savedAnswer && savedAnswer !== q.answer) {
+                        btnClass = 'w-full text-left p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-900 font-medium flex items-center justify-between';
+                    }
+                }
+
+                btn.className = btnClass;
+                btn.innerHTML = `<span>${opt}</span> <span class="text-xs text-slate-400">#${idx + 1}</span>`;
+                btn.onclick = () => selectAnswer(idx);
+                optionsList.appendChild(btn);
+            });
+
+            const expBox = document.getElementById('explanationBox');
+            if (savedAnswer !== undefined && q.explanation) {
+                expBox.classList.remove('hidden');
+                document.getElementById('explanationText').innerText = q.explanation;
+            } else {
+                expBox.classList.add('hidden');
+            }
+
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            document.getElementById('nextBtn').innerText = currentQuestionIndex === total - 1 ? 'Finish Exam' : 'Next';
+        }
+
+        function selectAnswer(idx) {
+            if (userAnswers[currentQuestionIndex] !== undefined) return;
+            userAnswers[currentQuestionIndex] = idx;
+            renderQuestion();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentExam.questions.length - 1) {
+                currentQuestionIndex++;
+                renderQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                renderQuestion();
+            }
+        }
+
+        function showResults() {
+            let correctCount = 0;
+            currentExam.questions.forEach((q, idx) => {
+                if (userAnswers[idx] === q.answer) {
+                    correctCount++;
+                }
+            });
+
+            const total = currentExam.questions.length;
+            const percentage = Math.round((correctCount / total) * 100);
+
+            document.getElementById('quizView').classList.add('hidden');
+            document.getElementById('resultView').classList.remove('hidden');
+            document.getElementById('resultScoreText').innerHTML = `You scored <strong>${correctCount}</strong> out of <strong>${total}</strong> (${percentage}%)`;
+        }
+
+        function returnToDashboard() {
+            renderDashboard();
+        }
+    </script>
+</body>
+</html>
