@@ -1,0 +1,367 @@
+const CACHE_NAME = 'vlearn-exam-cache-v1';
+
+// Install event: cache core files
+self.addEventListener('install', (event) => {
+    event.waitUntil(
+        caches.open(CACHE_NAME).then((cache) => {
+            return cache.addAll([
+                './',
+                './index.html',
+                './manifest.json'
+            ]);
+        })
+    );
+    self.skipWaiting();
+});
+
+// Fetch event: Serve from cache, fallback to network
+self.addEventListener('fetch', (event) => {
+    event.respondWith(
+        caches.match(event.request).then((response) => {
+            return response || fetch(event.request);
+        })
+    );
+});
+
+// Activate event: clean up old caches
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.map((cache) => {
+                    if (cache !== CACHE_NAME) {
+                        return caches.delete(cache);
+                    }
+                })
+            );
+        })
+    );
+});
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLEARN Practice Exam Portal</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#4338ca">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans KR', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-100 min-h-screen text-slate-800 pb-12">
+
+    <!-- Header -->
+    <header class="bg-indigo-700 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-xl md:text-2xl font-extrabold tracking-wide" id="header-title">VLEARN PRACTICE EXAM</h1>
+                <p class="text-indigo-200 text-sm" id="header-subtitle">Select an exam module below to begin</p>
+            </div>
+            <button id="home-btn" onclick="showPortal()" class="hidden bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2 rounded-lg text-sm border border-indigo-400 transition shadow-sm">
+                🏠 시험 목록 (Menu)
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <!-- VIEW 1: PORTAL -->
+        <div id="portal-view">
+            <div id="exam-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <p id="loading-text" class="text-indigo-600 col-span-full text-center py-10 font-bold animate-pulse text-lg">시험 데이터를 불러오는 중입니다... (Loading Exams...)</p>
+            </div>
+        </div>
+
+        <!-- VIEW 2: ACTIVE EXAM -->
+        <div id="test-view" class="hidden">
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h2 class="font-bold text-lg text-slate-900">시험 안내 (Instructions)</h2>
+                    <p class="text-slate-600 text-sm mt-1">알맞은 정답을 선택하고 제출버튼을 누르세요.</p>
+                </div>
+                <button onclick="submitTest()" class="w-full md:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-lg shadow-md transition">
+                    제출 및 채점하기 (Submit)
+                </button>
+            </div>
+
+            <div id="result-card" class="hidden bg-white rounded-xl p-6 shadow-md border-2 border-indigo-500 mb-8 text-center">
+                <h2 class="text-2xl font-bold text-slate-900">시험 결과 (Test Results)</h2>
+                <div class="text-5xl font-extrabold text-indigo-600 my-4" id="final-score">0 / 0</div>
+                <p id="result-message" class="text-slate-700 font-medium text-lg mb-4"></p>
+                <div class="flex justify-center gap-4">
+                    <button onclick="resetTest()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-5 py-2.5 rounded-lg transition">다시 풀기 (Retry)</button>
+                    <button onclick="showPortal()" class="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold px-5 py-2.5 rounded-lg transition">시험 목록으로 (Menu)</button>
+                </div>
+            </div>
+
+            <div id="questions-container" class="space-y-6"></div>
+
+            <div class="mt-8 text-center">
+                <button onclick="submitTest()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg px-10 py-4 rounded-xl shadow-lg transition w-full md:w-auto">
+                    제출 및 채점하기 (Submit Test)
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        window.allExams = {};
+        let currentExamId = null;
+        let userAnswers = {};
+        let activeCharts = [];
+
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+        }
+
+        // Auto-Discovery Script
+        function loadScript(src) {
+            return new Promise((resolve) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = () => resolve(true);
+                script.onerror = () => { script.remove(); resolve(false); };
+                document.body.appendChild(script);
+            });
+        }
+
+        async function discoverAndLoadExams() {
+            let examNumber = 1;
+            let missingCount = 0;
+
+            while (missingCount < 2 && examNumber <= 100) {
+                const exists = await loadScript(`exam${examNumber}.js`);
+                if (exists) {
+                    missingCount = 0;
+                    // Tag the loaded exam with its sequential file number for the UI
+                    const keys = Object.keys(window.allExams);
+                    window.allExams[keys[keys.length - 1]].fileNumber = examNumber;
+                } else {
+                    missingCount++;
+                }
+                examNumber++;
+            }
+
+            if (typeof ChartDataLabels !== 'undefined') Chart.register(ChartDataLabels);
+            renderPortal();
+        }
+
+        function renderPortal() {
+            const container = document.getElementById('exam-list');
+            container.innerHTML = '';
+
+            if (Object.keys(window.allExams).length === 0) {
+                container.innerHTML = `<p class="text-rose-500 col-span-full text-center py-10 font-bold">No exams found. Upload exam1.js to GitHub.</p>`;
+                return;
+            }
+
+            for (const [key, exam] of Object.entries(window.allExams)) {
+                const totalQ = exam.questions ? exam.questions.length : 0;
+                const badge = exam.badge || "시험";
+                const examNumTag = `Exam ${exam.fileNumber}`;
+                
+                const card = document.createElement('div');
+                card.className = "bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition flex flex-col justify-between";
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-center mb-3">
+                            <div class="flex items-center gap-2">
+                                <span class="bg-indigo-600 text-white text-xs font-bold px-2.5 py-1 rounded-md shadow-sm">${examNumTag}</span>
+                                <span class="bg-indigo-100 text-indigo-700 text-xs font-bold px-2.5 py-1 rounded-full">${badge}</span>
+                            </div>
+                            <span class="text-slate-400 text-xs font-semibold">${totalQ} Qs</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">${exam.title}</h3>
+                        <p class="text-slate-500 text-xs mb-3">${exam.subtitle || ''}</p>
+                        <p class="text-slate-600 text-sm mb-6">${exam.description || ''}</p>
+                    </div>
+                    <button onclick="startExam('${key}')" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2.5 rounded-lg transition text-sm shadow-sm">
+                        시험 시작하기 (Start Test)
+                    </button>
+                `;
+                container.appendChild(card);
+            }
+        }
+
+        function showPortal() {
+            currentExamId = null;
+            userAnswers = {};
+            activeCharts.forEach(c => c.destroy());
+            activeCharts = [];
+            
+            document.getElementById('test-view').classList.add('hidden');
+            document.getElementById('portal-view').classList.remove('hidden');
+            document.getElementById('home-btn').classList.add('hidden');
+            document.getElementById('header-title').innerText = "VLEARN PRACTICE EXAM";
+            document.getElementById('header-subtitle').innerText = "Select an exam module below to begin";
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function startExam(examKey) {
+            currentExamId = examKey;
+            const exam = window.allExams[examKey];
+            userAnswers = {};
+
+            document.getElementById('portal-view').classList.add('hidden');
+            document.getElementById('test-view').classList.remove('hidden');
+            document.getElementById('home-btn').classList.remove('hidden');
+            document.getElementById('header-title').innerText = exam.title;
+            document.getElementById('header-subtitle').innerText = exam.subtitle || exam.description;
+            document.getElementById('result-card').classList.add('hidden');
+
+            renderQuestions();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderQuestions() {
+            activeCharts.forEach(c => c.destroy());
+            activeCharts = [];
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            const exam = window.allExams[currentExamId];
+
+            exam.questions.forEach((q, index) => {
+                const qId = q.id || (index + 1);
+                const qTitle = q.title || `${qId}. ${q.q}`;
+                const topicText = q.topic || exam.badge || "시험";
+
+                let visualContent = '';
+                if (q.word) {
+                    visualContent = `<div class="flex justify-center items-center my-4 p-6 bg-slate-50 rounded-xl border border-slate-200"><span class="text-3xl md:text-4xl font-extrabold text-indigo-700 font-mono tracking-wide">${q.word}</span></div>`;
+                } else if (q.chartType) {
+                    visualContent = `<div class="my-4 p-4 bg-slate-50 rounded-xl border border-slate-100 flex justify-center"><div class="w-full max-w-md"><canvas id="chart-${qId}"></canvas></div></div>`;
+                }
+
+                let optionsHtml = '';
+                q.options.forEach((opt, optIndex) => {
+                    optionsHtml += `
+                        <button onclick="selectOption(${qId}, ${optIndex})" id="q${qId}-opt${optIndex}" class="w-full text-left px-4 py-3 rounded-lg border border-slate-200 hover:border-indigo-400 hover:bg-indigo-50/50 transition flex items-center space-x-3 text-slate-700">
+                            <span class="w-7 h-7 rounded-full bg-slate-100 text-slate-600 font-bold text-sm flex items-center justify-center shrink-0 border border-slate-300" id="q${qId}-num${optIndex}">${optIndex + 1}</span>
+                            <span class="text-base font-medium">${opt}</span>
+                        </button>
+                    `;
+                });
+
+                container.innerHTML += `
+                    <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200" id="question-${qId}">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-600">${topicText}</span>
+                            <span class="text-xs text-slate-400">Q${qId}</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">${qTitle}</h3>
+                        ${visualContent}
+                        <div class="space-y-2.5 mt-4">${optionsHtml}</div>
+                        ${q.explanation ? `<div id="explanation-${qId}" class="hidden mt-4 p-4 rounded-lg bg-indigo-50 border border-indigo-200 text-sm text-indigo-950"><p class="font-bold mb-1">💡 해설 (Explanation):</p><p>${q.explanation}</p></div>` : ''}
+                    </div>
+                `;
+
+                if (q.chartType) {
+                    setTimeout(() => renderChart(q, qId), 50);
+                }
+            });
+        }
+
+        function renderChart(q, qId) {
+            const ctx = document.getElementById(`chart-${qId}`);
+            if (!ctx) return;
+            activeCharts.push(new Chart(ctx, {
+                type: q.chartType,
+                data: {
+                    labels: q.data.labels,
+                    datasets: [{
+                        label: q.unit,
+                        data: q.data.values,
+                        backgroundColor: q.chartType === 'pie' ? ['#6366f1', '#3b82f6', '#10b981', '#f59e0b', '#ec4899'] : '#6366f1',
+                        borderWidth: 1
+                    }]
+                },
+                options: { responsive: true }
+            }));
+        }
+
+        function selectOption(qId, optionIndex) {
+            userAnswers[qId] = optionIndex;
+            const exam = window.allExams[currentExamId];
+            const qObj = exam.questions.find((item, idx) => (item.id || (idx + 1)) === qId);
+            
+            qObj.options.forEach((_, idx) => {
+                const btn = document.getElementById(`q${qId}-opt${idx}`);
+                const num = document.getElementById(`q${qId}-num${idx}`);
+                if (idx === optionIndex) {
+                    btn.className = "w-full text-left px-4 py-3 rounded-lg border-2 border-indigo-600 bg-indigo-50 transition flex items-center space-x-3 text-indigo-900 font-semibold";
+                    num.className = "w-7 h-7 rounded-full bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 border border-indigo-600";
+                } else {
+                    btn.className = "w-full text-left px-4 py-3 rounded-lg border border-slate-200 hover:border-indigo-400 hover:bg-indigo-50/50 transition flex items-center space-x-3 text-slate-700";
+                    num.className = "w-7 h-7 rounded-full bg-slate-100 text-slate-600 font-bold text-sm flex items-center justify-center shrink-0 border border-slate-300";
+                }
+            });
+        }
+
+        function submitTest() {
+            const exam = window.allExams[currentExamId];
+            let score = 0;
+
+            exam.questions.forEach((q, index) => {
+                const qId = q.id || (index + 1);
+                const selectedOpt = userAnswers[qId];
+                const expDiv = document.getElementById(`explanation-${qId}`);
+                if (expDiv) expDiv.classList.remove('hidden');
+
+                q.options.forEach((_, idx) => {
+                    const btn = document.getElementById(`q${qId}-opt${idx}`);
+                    if(btn) btn.disabled = true;
+
+                    if (idx === q.answer) {
+                        if(btn) btn.className = "w-full text-left px-4 py-3 rounded-lg border-2 border-emerald-500 bg-emerald-50 transition flex items-center space-x-3 text-emerald-900 font-semibold";
+                    } else if (idx === selectedOpt && selectedOpt !== q.answer) {
+                        if(btn) btn.className = "w-full text-left px-4 py-3 rounded-lg border-2 border-rose-500 bg-rose-50 transition flex items-center space-x-3 text-rose-900 font-semibold";
+                    }
+                });
+
+                if (selectedOpt === q.answer) score++;
+            });
+
+            const total = exam.questions.length;
+            const scorePercent = Math.round((score / total) * 100);
+
+            document.getElementById('final-score').innerText = `${score} / ${total} (${scorePercent}%)`;
+            const msgText = document.getElementById('result-message');
+            
+            if (scorePercent >= 80) {
+                msgText.innerText = "🎉 합격 수준입니다! 아주 훌륭합니다! (Excellent job!)";
+                msgText.className = "text-emerald-600 font-bold text-lg mb-4";
+            } else if (scorePercent >= 60) {
+                msgText.innerText = "👍 잘 하셨습니다. 조금만 더 연습해보세요! (Good effort!)";
+                msgText.className = "text-indigo-600 font-bold text-lg mb-4";
+            } else {
+                msgText.innerText = "💪 아쉽네요. 틀린 내용을 복습해보세요! (Keep practicing!)";
+                msgText.className = "text-rose-600 font-bold text-lg mb-4";
+            }
+
+            document.getElementById('result-card').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function resetTest() {
+            userAnswers = {};
+            document.getElementById('result-card').classList.add('hidden');
+            renderQuestions();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Initialize App
+        discoverAndLoadExams();
+    </script>
+</body>
+</html>
