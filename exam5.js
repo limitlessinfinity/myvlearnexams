@@ -14,7 +14,7 @@ window.allExams["exam5"] = {
             word: "할아버지, 형, 아들",
             options: ["가족", "직장", "여행", "계절"],
             answer: 0,
-            explanation: "'할아버지, 형, 아들'은(는) 모두 '가족'에 속하는 명사들입니다."
+            explanation: "'할아버지, 형, 아들' (Grandfather, older brother, son) are all nouns belonging to '가족' (Family)."
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ window.allExams["exam5"] = {
             word: "공책, 칼, 연필",
             options: ["교통수단", "보호구", "학용품/사무용품", "취미"],
             answer: 2,
-            explanation: "'공책, 칼, 연필'은(는) 모두 '학용품/사무용품'에 속하는 명사들입니다."
+            explanation: "'공책, 칼, 연필' (Notebook, knife, pencil) are all nouns belonging to '학용품/사무용품' (School supplies / Office supplies)."
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ window.allExams["exam5"] = {
             word: "주택, 아파트, 방",
             options: ["옷", "집", "악기", "가구"],
             answer: 1,
-            explanation: "'주택, 아파트, 방'은(는) 모두 '집'에 속하는 명사들입니다."
+            explanation: "'주택, 아파트, 방' (House, apartment, room) are all nouns belonging to '집' (House / Home)."
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ window.allExams["exam5"] = {
             word: "기차표, 비행기표, 숙소",
             options: ["직장", "가족", "여행", "계절"],
             answer: 2,
-            explanation: "'기차표, 비행기표, 숙소'은(는) 모두 '여행'에 속하는 명사들입니다."
+            explanation: "'기차표, 비행기표, 숙소' (Train ticket, plane ticket, accommodation) are all nouns belonging to '여행' (Travel)."
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ window.allExams["exam5"] = {
             word: "예금, 송금, 환전",
             options: ["은행", "우체국", "교실", "유제품"],
             answer: 0,
-            explanation: "'예금, 송금, 환전'은(는) 모두 '은행'에 속하는 명사들입니다."
+            explanation: "'예금, 송금, 환전' (Deposit, remittance, currency exchange) are all nouns belonging to '은행' (Bank)."
         },
         {
             id: 6,
@@ -64,7 +64,7 @@ window.allExams["exam5"] = {
             word: "눈, 코, 입",
             options: ["얼굴", "명절/기념일", "보호구", "교통수단"],
             answer: 0,
-            explanation: "'눈, 코, 입'은(는) 모두 '얼굴'에 속하는 명사들입니다."
+            explanation: "'눈, 코, 입' (Eyes, nose, mouth) are all nouns belonging to '얼굴' (Face)."
         },
         {
             id: 7,
@@ -74,7 +74,7 @@ window.allExams["exam5"] = {
             word: "보안경, 안전화, 목장갑",
             options: ["학용품/사무용품", "보호구", "교실", "우체국"],
             answer: 1,
-            explanation: "'보안경, 안전화, 목장갑'은(는) 모두 '보호구'에 속하는 명사들입니다."
+            explanation: "'보안경, 안전화, 목장갑' (Safety glasses, safety shoes, cotton gloves) are all nouns belonging to '보호구' (Protective gear)."
         },
         {
             id: 8,
@@ -84,7 +84,7 @@ window.allExams["exam5"] = {
             word: "설날, 추석, 한식",
             options: ["여행", "취미", "명절/기념일", "계절"],
             answer: 2,
-            explanation: "'설날, 추석, 한식'은(는) 모두 '명절/기념일'에 속하는 명사들입니다."
+            explanation: "'설날, 추석, 한식' (Lunar New Year, Chuseok, Hansik) are all nouns belonging to '명절/기념일' (Holidays / Anniversary)."
         },
         {
             id: 9,
@@ -94,7 +94,7 @@ window.allExams["exam5"] = {
             word: "버스, 택시, 지하철",
             options: ["교통수단", "스포츠/운동", "악기", "옷"],
             answer: 0,
-            explanation: "'버스, 택시, 지하철'은(는) 모두 '교통수단'에 속하는 명사들입니다."
+            explanation: "'버스, 택시, 지하철' (Bus, taxi, subway) are all nouns belonging to '교통수단' (Means of transportation)."
         },
         {
             id: 10,
@@ -104,7 +104,7 @@ window.allExams["exam5"] = {
             word: "동료, 근무, 월급",
             options: ["가족", "직장", "집", "가전제품"],
             answer: 1,
-            explanation: "'동료, 근무, 월급'은(는) 모두 '직장'에 속하는 명사들입니다."
+            explanation: "'동료, 근무, 월급' (Colleague, work/shift, salary) are all nouns belonging to '직장' (Workplace)."
         },
         {
             id: 11,
@@ -114,7 +114,7 @@ window.allExams["exam5"] = {
             word: "우유, 치즈, 버터",
             options: ["은행", "유제품", "얼굴", "교실"],
             answer: 1,
-            explanation: "'우유, 치즈, 버터'은(는) 모두 '유제품'에 속하는 명사들입니다."
+            explanation: "'우유, 치즈, 버터' (Milk, cheese, butter) are all nouns belonging to '유제품' (Dairy products)."
         },
         {
             id: 12,
@@ -124,7 +124,7 @@ window.allExams["exam5"] = {
             word: "독서, 등산, 수영",
             options: ["취미", "여행", "학용품/사무용품", "보호구"],
             answer: 0,
-            explanation: "'독서, 등산, 수영'은(는) 모두 '취미'에 속하는 명사들입니다."
+            explanation: "'독서, 등산, 수영' (Reading, hiking, swimming) are all nouns belonging to '취미' (Hobbies)."
         },
         {
             id: 13,
@@ -134,7 +134,7 @@ window.allExams["exam5"] = {
             word: "옷장, 책상, 의자",
             options: ["가전제품", "가구", "옷", "집"],
             answer: 1,
-            explanation: "'옷장, 책상, 의자'은(는) 모두 '가구'에 속하는 명사들입니다."
+            explanation: "'옷장, 책상, 의자' (Wardrobe, desk, chair) are all nouns belonging to '가구' (Furniture)."
         },
         {
             id: 14,
@@ -144,7 +144,7 @@ window.allExams["exam5"] = {
             word: "텔레비전, 라디오, 냉장고",
             options: ["가전제품", "악기", "스포츠/운동", "직장"],
             answer: 0,
-            explanation: "'텔레비전, 라디오, 냉장고'은(는) 모두 '가전제품'에 속하는 명사들입니다."
+            explanation: "'텔레비전, 라디오, 냉장고' (Television, radio, refrigerator) are all nouns belonging to '가전제품' (Home appliances)."
         },
         {
             id: 15,
@@ -154,7 +154,7 @@ window.allExams["exam5"] = {
             word: "축구, 농구, 야구",
             options: ["가족", "계절", "스포츠/운동", "여행"],
             answer: 2,
-            explanation: "'축구, 농구, 야구'은(는) 모두 '스포츠/운동'에 속하는 명사들입니다."
+            explanation: "'축구, 농구, 야구' (Soccer, basketball, baseball) are all nouns belonging to '스포츠/운동' (Sports / Exercise)."
         },
         {
             id: 16,
@@ -164,7 +164,7 @@ window.allExams["exam5"] = {
             word: "책, 의자, 칠판",
             options: ["우체국", "교실", "은행", "유제품"],
             answer: 1,
-            explanation: "'책, 의자, 칠판'은(는) 모두 '교실'에 속하는 명사들입니다."
+            explanation: "'책, 의자, 칠판' (Book, chair, blackboard) are all nouns belonging to '교실' (Classroom)."
         },
         {
             id: 17,
@@ -174,7 +174,7 @@ window.allExams["exam5"] = {
             word: "편지, 엽서, 소포",
             options: ["우체국", "보호구", "명절/기념일", "교통수단"],
             answer: 0,
-            explanation: "'편지, 엽서, 소포'은(는) 모두 '우체국'에 속하는 명사들입니다."
+            explanation: "'편지, 엽서, 소포' (Letter, postcard, parcel) are all nouns belonging to '우체국' (Post office)."
         },
         {
             id: 18,
@@ -184,7 +184,7 @@ window.allExams["exam5"] = {
             word: "봄, 여름, 가을",
             options: ["직장", "유제품", "계절", "얼굴"],
             answer: 2,
-            explanation: "'봄, 여름, 가을'은(는) 모두 '계절'에 속하는 명사들입니다."
+            explanation: "'봄, 여름, 가을' (Spring, summer, autumn) are all nouns belonging to '계절' (Seasons)."
         },
         {
             id: 19,
@@ -194,7 +194,7 @@ window.allExams["exam5"] = {
             word: "의복, 한복, 자켓",
             options: ["옷", "악기", "가전제품", "가구"],
             answer: 0,
-            explanation: "'의복, 한복, 자켓'은(는) 모두 '옷'에 속하는 명사들입니다."
+            explanation: "'의복, 한복, 자켓' (Clothing, Hanbok, jacket) are all nouns belonging to '옷' (Clothes)."
         },
         {
             id: 20,
@@ -204,7 +204,7 @@ window.allExams["exam5"] = {
             word: "기타, 피아노, 드럼",
             options: ["집", "스포츠/운동", "악기", "여행"],
             answer: 2,
-            explanation: "'기타, 피아노, 드럼'은(는) 모두 '악기'에 속하는 명사들입니다."
+            explanation: "'기타, 피아노, 드럼' (Guitar, piano, drums) are all nouns belonging to '악기' (Musical instruments)."
         },
         {
             id: 21,
@@ -214,7 +214,7 @@ window.allExams["exam5"] = {
             word: "할머니, 어머니, 동생",
             options: ["가족", "취미", "학용품/사무용품", "교통수단"],
             answer: 0,
-            explanation: "'할머니, 어머니, 동생'은(는) 모두 '가족'에 속하는 명사들입니다."
+            explanation: "'할머니, 어머니, 동생' (Grandmother, mother, younger sibling) are all nouns belonging to '가족' (Family)."
         },
         {
             id: 22,
@@ -224,7 +224,7 @@ window.allExams["exam5"] = {
             word: "여름, 가을, 겨울",
             options: ["보호구", "계실", "계절", "우체국"],
             answer: 2,
-            explanation: "'여름, 가을, 겨울'은(는) 모두 '계절'에 속하는 명사들입니다."
+            explanation: "'여름, 가을, 겨울' (Summer, autumn, winter) are all nouns belonging to '계절' (Seasons)."
         },
         {
             id: 23,
@@ -234,7 +234,7 @@ window.allExams["exam5"] = {
             word: "치즈, 버터, 분유",
             options: ["은행", "유제품", "얼굴", "명절/기념일"],
             answer: 1,
-            explanation: "'치즈, 버터, 분유'은(는) 모두 '유제품'에 속하는 명사들입니다."
+            explanation: "'치즈, 버터, 분유' (Cheese, butter, powdered milk) are all nouns belonging to '유제품' (Dairy products)."
         },
         {
             id: 24,
@@ -244,7 +244,7 @@ window.allExams["exam5"] = {
             word: "주택, 방, 부엌",
             options: ["가구", "옷", "집", "악기"],
             answer: 2,
-            explanation: "'주택, 방, 부엌'은(는) 모두 '집'에 속하는 명사들입니다."
+            explanation: "'주택, 방, 부엌' (House, room, kitchen) are all nouns belonging to '집' (House / Home)."
         },
         {
             id: 25,
@@ -254,7 +254,7 @@ window.allExams["exam5"] = {
             word: "한복, 자켓, 바지",
             options: ["스포츠/운동", "직장", "옷", "가족"],
             answer: 2,
-            explanation: "'한복, 자켓, 바지'은(는) 모두 '옷'에 속하는 명사들입니다."
+            explanation: "'한복, 자켓, 바지' (Hanbok, jacket, trousers) are all nouns belonging to '옷' (Clothes)."
         },
         {
             id: 26,
@@ -264,7 +264,7 @@ window.allExams["exam5"] = {
             word: "농구, 야구, 탁구",
             options: ["계절", "여행", "스포츠/운동", "취미"],
             answer: 2,
-            explanation: "'농구, 야구, 탁구'은(는) 모두 '스포츠/운동'에 속하는 명사들입니다."
+            explanation: "'농구, 야구, 탁구' (Basketball, baseball, table tennis) are all nouns belonging to '스포츠/운동' (Sports / Exercise)."
         },
         {
             id: 27,
@@ -274,7 +274,7 @@ window.allExams["exam5"] = {
             word: "책상, 의자, 식탁",
             options: ["학용품/사무용품", "가구", "교통수단", "보호구"],
             answer: 1,
-            explanation: "'책상, 의자, 식탁'은(는) 모두 '가구'에 속하는 명사들입니다."
+            explanation: "'책상, 의자, 식탁' (Desk, chair, dining table) are all nouns belonging to '가구' (Furniture)."
         },
         {
             id: 28,
@@ -284,7 +284,7 @@ window.allExams["exam5"] = {
             word: "추석, 한식, 생일",
             options: ["교실", "우체국", "명절/기념일", "은행"],
             answer: 2,
-            explanation: "'추석, 한식, 생일'은(는) 모두 '명절/기념일'에 속하는 명사들입니다."
+            explanation: "'추석, 한식, 생일' (Chuseok, Hansik, birthday) are all nouns belonging to '명절/기념일' (Holidays / Anniversary)."
         },
         {
             id: 29,
@@ -294,7 +294,7 @@ window.allExams["exam5"] = {
             word: "피아노, 드럼, 피리",
             options: ["유제품", "얼굴", "악기", "가전제품"],
             answer: 2,
-            explanation: "'피아노, 드럼, 피리'은(는) 모두 '악기'에 속하는 명사들입니다."
+            explanation: "'피아노, 드럼, 피리' (Piano, drums, piri/flute) are all nouns belonging to '악기' (Musical instruments)."
         },
         {
             id: 30,
@@ -304,7 +304,7 @@ window.allExams["exam5"] = {
             word: "비행기표, 숙소, 기념품",
             options: ["가구", "여행", "집", "옷"],
             answer: 1,
-            explanation: "'비행기표, 숙소, 기념품'은(는) 모두 '여행'에 속하는 명사들입니다."
+            explanation: "'비행기표, 숙소, 기념품' (Plane ticket, accommodation, souvenir) are all nouns belonging to '여행' (Travel)."
         },
         {
             id: 31,
@@ -314,7 +314,7 @@ window.allExams["exam5"] = {
             word: "코, 입, 귀",
             options: ["악기", "스포츠/운동", "얼굴", "직장"],
             answer: 2,
-            explanation: "'코, 입, 귀'은(는) 모두 '얼굴'에 속하는 명사들입니다."
+            explanation: "'코, 입, 귀' (Nose, mouth, ear) are all nouns belonging to '얼굴' (Face)."
         },
         {
             id: 32,
@@ -324,7 +324,7 @@ window.allExams["exam5"] = {
             word: "등산, 수영, 요리",
             options: ["가족", "계절", "취미", "여행"],
             answer: 2,
-            explanation: "'등산, 수영, 요리'은(는) 모두 '취미'에 속하는 명사들입니다."
+            explanation: "'등산, 수영, 요리' (Hiking, swimming, cooking) are all nouns belonging to '취미' (Hobbies)."
         },
         {
             id: 33,
@@ -334,7 +334,7 @@ window.allExams["exam5"] = {
             word: "라디오, 냉장고, 세탁기",
             options: ["학용품/사무용품", "가전제품", "교통수단", "보호구"],
             answer: 1,
-            explanation: "'라디오, 냉장고, 세탁기'은(는) 모두 '가전제품'에 속하는 명사들입니다."
+            explanation: "'라디오, 냉장고, 세탁기' (Radio, refrigerator, washing machine) are all nouns belonging to '가전제품' (Home appliances)."
         },
         {
             id: 34,
@@ -344,7 +344,7 @@ window.allExams["exam5"] = {
             word: "출금, 송금, 환전",
             options: ["교실", "우체국", "은행", "유제품"],
             answer: 2,
-            explanation: "'출금, 송금, 환전'은(는) 모두 '은행'에 속하는 명사들입니다."
+            explanation: "'출금, 송금, 환전' (Withdrawal, remittance, currency exchange) are all nouns belonging to '은행' (Bank)."
         },
         {
             id: 35,
@@ -354,7 +354,7 @@ window.allExams["exam5"] = {
             word: "안전화, 귀마개, 목장갑",
             options: ["얼굴", "명절/기념일", "보호구", "교통수단"],
             answer: 2,
-            explanation: "'안전화, 귀마개, 목장갑'은(는) 모두 '보호구'에 속하는 명사들입니다."
+            explanation: "'안전화, 귀마개, 목장갑' (Safety shoes, earplugs, cotton gloves) are all nouns belonging to '보호구' (Protective gear)."
         },
         {
             id: 36,
@@ -364,7 +364,7 @@ window.allExams["exam5"] = {
             word: "칼, 자, 연필",
             options: ["학용품/사무용품", "직장", "가족", "계절"],
             answer: 0,
-            explanation: "'칼, 자, 연필'은(는) 모두 '학용품/사무용품'에 속하는 명사들입니다."
+            explanation: "'칼, 자, 연필' (Knife, ruler, pencil) are all nouns belonging to '학용품/사무용품' (School supplies / Office supplies)."
         },
         {
             id: 37,
@@ -374,7 +374,7 @@ window.allExams["exam5"] = {
             word: "아파트, 거실, 부엌",
             options: ["여행", "취미", "집", "학용품/사무용품"],
             answer: 2,
-            explanation: "'아파트, 거실, 부엌'은(는) 모두 '집'에 속하는 명사들입니다."
+            explanation: "'아파트, 거실, 부엌' (Apartment, living room, kitchen) are all nouns belonging to '집' (House / Home)."
         },
         {
             id: 38,
@@ -384,7 +384,7 @@ window.allExams["exam5"] = {
             word: "택시, 지하철, 기차",
             options: ["교통수단", "가전제품", "가구", "옷"],
             answer: 0,
-            explanation: "'택시, 지하철, 기차'은(는) 모두 '교통수단'에 속하는 명사들입니다."
+            explanation: "'택시, 지하철, 기차' (Taxi, subway, train) are all nouns belonging to '교통수단' (Means of transportation)."
         },
         {
             id: 39,
@@ -394,7 +394,7 @@ window.allExams["exam5"] = {
             word: "근무, 월급, 회식",
             options: ["악기", "스포츠/운동", "직장", "가족"],
             answer: 2,
-            explanation: "'근무, 월급, 회식'은(는) 모두 '직장'에 속하는 명사들입니다."
+            explanation: "'근무, 월급, 회식' (Work/shift, salary, company dinner) are all nouns belonging to '직장' (Workplace)."
         },
         {
             id: 40,
@@ -404,7 +404,7 @@ window.allExams["exam5"] = {
             word: "우유, 치즈, 분유",
             options: ["계절", "여행", "유제품", "취미"],
             answer: 2,
-            explanation: "'우유, 치즈, 분유'은(는) 모두 '유제품'에 속하는 명사들입니다."
+            explanation: "'우유, 치즈, 분유' (Milk, cheese, powdered milk) are all nouns belonging to '유제품' (Dairy products)."
         },
         {
             id: 41,
@@ -414,7 +414,7 @@ window.allExams["exam5"] = {
             word: "식탁, 탁자, 침대",
             options: ["학용품/사무용품", "가구", "교통수단", "보호구"],
             answer: 1,
-            explanation: "'식탁, 탁자, 침대'은(는) 모두 '가구'에 속하는 명사들입니다."
+            explanation: "'식탁, 탁자, 침대' (Dining table, small table, bed) are all nouns belonging to '가구' (Furniture)."
         },
         {
             id: 42,
@@ -424,7 +424,7 @@ window.allExams["exam5"] = {
             word: "배구, 탁구, 배드민턴",
             options: ["교실", "우체국", "스포츠/운동", "은행"],
             answer: 2,
-            explanation: "'배구, 탁구, 배드민턴'은(는) 모두 '스포츠/운동'에 속하는 명사들입니다."
+            explanation: "'배구, 탁구, 배드민턴' (Volleyball, table tennis, badminton) are all nouns belonging to '스포츠/운동' (Sports / Exercise)."
         },
         {
             id: 43,
@@ -434,7 +434,7 @@ window.allExams["exam5"] = {
             word: "기차표, 짐, 기념품",
             options: ["유제품", "얼굴", "여행", "명절/기념일"],
             answer: 2,
-            explanation: "'기차표, 짐, 기념품'은(는) 모두 '여행'에 속하는 명사들입니다."
+            explanation: "'기차표, 짐, 기념품' (Train ticket, luggage, souvenir) are all nouns belonging to '여행' (Travel)."
         },
         {
             id: 44,
@@ -444,7 +444,7 @@ window.allExams["exam5"] = {
             word: "티셔츠, 바지, 치마",
             options: ["가전제품", "가구", "옷", "집"],
             answer: 2,
-            explanation: "'티셔츠, 바지, 치마'은(는) 모두 '옷'에 속하는 명사들입니다."
+            explanation: "'티셔츠, 바지, 치마' (T-shirt, trousers, skirt) are all nouns belonging to '옷' (Clothes)."
         },
         {
             id: 45,
@@ -454,7 +454,7 @@ window.allExams["exam5"] = {
             word: "정월대보름, 스승의 날, 어버이 날",
             options: ["직장", "가족", "명절/기념일", "계절"],
             answer: 2,
-            explanation: "'정월대보름, 스승의 날, 어버이 날'은(는) 모두 '명절/기념일'에 속하는 명사들입니다."
+            explanation: "'정월대보름, 스승의 날, 어버이 날' (Daeboreum, Teachers' Day, Parents' Day) are all nouns belonging to '명절/기념일' (Holidays / Anniversary)."
         },
         {
             id: 46,
@@ -464,7 +464,7 @@ window.allExams["exam5"] = {
             word: "다리미, 컴퓨터, 텔레비전",
             options: ["여행", "취미", "가전제품", "학용품/사무용품"],
             answer: 2,
-            explanation: "'다리미, 컴퓨터, 텔레비전'은(는) 모두 '가전제품'에 속하는 명사들입니다."
+            explanation: "'다리미, 컴퓨터, 텔레비전' (Iron, computer, television) are all nouns belonging to '가전제품' (Home appliances)."
         },
         {
             id: 47,
@@ -474,7 +474,7 @@ window.allExams["exam5"] = {
             word: "독서, 수영, 축구",
             options: ["가전제품", "교통수단", "보호구", "취미"],
             answer: 3,
-            explanation: "'독서, 수영, 축구'은(는) 모두 '취미'에 속하는 명사들입니다."
+            explanation: "'독서, 수영, 축구' (Reading, swimming, soccer) are all nouns belonging to '취미' (Hobbies)."
         },
         {
             id: 48,
@@ -484,7 +484,7 @@ window.allExams["exam5"] = {
             word: "할아버지, 어머니, 아들",
             options: ["우체국", "은행", "가족", "유제품"],
             answer: 2,
-            explanation: "'할아버지, 어머니, 아들'은(는) 모두 '가족'에 속하는 명사들입니다."
+            explanation: "'할아버지, 어머니, 아들' (Grandfather, mother, son) are all nouns belonging to '가족' (Family)."
         },
         {
             id: 49,
@@ -494,7 +494,7 @@ window.allExams["exam5"] = {
             word: "기타, 드럼, 북",
             options: ["얼굴", "명절/기념일", "악기", "가전제품"],
             answer: 2,
-            explanation: "'기타, 드럼, 북'은(는) 모두 '악기'에 속하는 명사들입니다."
+            explanation: "'기타, 드럼, 북' (Guitar, drums, book/drum - buk) are all nouns belonging to '악기' (Musical instruments)."
         },
         {
             id: 50,
@@ -504,7 +504,7 @@ window.allExams["exam5"] = {
             word: "소파, 옷장, 책상",
             options: ["가구", "옷", "악기", "스포츠/운동"],
             answer: 0,
-            explanation: "'소파, 옷장, 책상'은(는) 모두 '가구'에 속하는 명사들입니다."
+            explanation: "'소파, 옷장, 책상' (Sofa, wardrobe, desk) are all nouns belonging to '가구' (Furniture)."
         }
     ]
 };
