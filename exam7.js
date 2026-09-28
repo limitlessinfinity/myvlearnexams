@@ -12,9 +12,9 @@ window.allExams["exam7"] = {
             title: "1. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "업무",
-            options: ["일", "허가", "비자", "사료"],
-            answer: 0,
-            explanation: "The synonym for '업무' (task/business) is '일' (work/job)."
+            options: ["허가", "일", "사료", "비자"],
+            answer: 1,
+            explanation: "'업무'의 비슷한 말은 '일'입니다."
         },
         {
             id: 2,
@@ -22,9 +22,9 @@ window.allExams["exam7"] = {
             title: "2. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "기온",
-            options: ["온도", "지역", "도구", "임금"],
-            answer: 0,
-            explanation: "The synonym for '기온' (air temperature) is '온도' (temperature)."
+            options: ["지역", "임금", "온도", "도구"],
+            answer: 2,
+            explanation: "'기온'의 비슷한 말은 '온도'입니다."
         },
         {
             id: 3,
@@ -32,9 +32,9 @@ window.allExams["exam7"] = {
             title: "3. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "규칙",
-            options: ["수칙", "바닷가", "청결", "가입"],
-            answer: 0,
-            explanation: "The synonym for '규칙' (rule) is '수칙' (code of conduct / rule)."
+            options: ["바닷가", "수칙", "가입", "청결"],
+            answer: 1,
+            explanation: "'규칙'의 비슷한 말은 '수칙'입니다."
         },
         {
             id: 4,
@@ -42,9 +42,9 @@ window.allExams["exam7"] = {
             title: "4. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "실내",
-            options: ["실외", "실내", "합법", "불법"],
-            answer: 0,
-            explanation: "The antonym of '실내' (indoors) is '실외' (outdoors)."
+            options: ["실내", "불법", "실외", "합법"],
+            answer: 2,
+            explanation: "'실내'의 반댓말은 '실외'입니다."
         },
         {
             id: 5,
@@ -52,9 +52,9 @@ window.allExams["exam7"] = {
             title: "5. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "위생",
-            options: ["청결", "주소", "기준", "가입"],
-            answer: 0,
-            explanation: "The synonym for '위생' (hygiene / sanitation) is '청결' (cleanliness)."
+            options: ["주소", "기준", "청결", "가입"],
+            answer: 2,
+            explanation: "'위생'의 비슷한 말은 '청결'입니다."
         },
         {
             id: 6,
@@ -62,9 +62,9 @@ window.allExams["exam7"] = {
             title: "6. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "주소",
-            options: ["소재지", "표준", "위생", "규칙"],
-            answer: 0,
-            explanation: "The synonym for '주소' (address) is '소재지' (location / site)."
+            options: ["표준", "위생", "소재지", "규칙"],
+            answer: 2,
+            explanation: "'주소'의 비슷한 말은 '소재지'입니다."
         },
         {
             id: 7,
@@ -72,9 +72,9 @@ window.allExams["exam7"] = {
             title: "7. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "가격",
-            options: ["값", "돈", "달", "밤"],
-            answer: 0,
-            explanation: "The synonym for '가격' (price) is '값' (price / cost)."
+            options: ["달", "값", "돈", "밤"],
+            answer: 1,
+            explanation: "'가격'의 비슷한 말은 '값'입니다."
         },
         {
             id: 8,
@@ -82,9 +82,9 @@ window.allExams["exam7"] = {
             title: "8. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "가입",
-            options: ["탈퇴", "가입", "출석", "종강"],
-            answer: 0,
-            explanation: "The antonym of '가입' (joining / subscription) is '탈퇴' (withdrawal / dropping out)."
+            options: ["출석", "가입", "종강", "탈퇴"],
+            answer: 3,
+            explanation: "'가입'의 반댓말은 '탈퇴'입니다."
         },
         {
             id: 9,
@@ -92,9 +92,9 @@ window.allExams["exam7"] = {
             title: "9. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "급여",
-            options: ["월급", "복장", "사원", "업무"],
-            answer: 0,
-            explanation: "The synonym for '급여' (pay / salary) is '월급' (monthly salary)."
+            options: ["사원", "월급", "복장", "업무"],
+            answer: 1,
+            explanation: "'급여'의 비슷한 말은 '월급'입니다."
         },
         {
             id: 10,
@@ -102,9 +102,9 @@ window.allExams["exam7"] = {
             title: "10. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "밤",
-            options: ["야간", "달", "돈", "가격"],
-            answer: 0,
-            explanation: "The synonym for '밤' (night) is '야간' (nighttime)."
+            options: ["달", "가격", "야간", "돈"],
+            answer: 2,
+            explanation: "'밤'의 비슷한 말은 '야간'입니다."
         },
         {
             id: 11,
@@ -112,9 +112,9 @@ window.allExams["exam7"] = {
             title: "11. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "표준",
-            options: ["기준", "사유", "소재", "해변"],
-            answer: 0,
-            explanation: "The synonym for '표준' (standard) is '기준' (standard / criterion)."
+            options: ["사유", "기준", "해변", "소재"],
+            answer: 1,
+            explanation: "'표준'의 비슷한 말은 '기준'입니다."
         },
         {
             id: 12,
@@ -122,9 +122,9 @@ window.allExams["exam7"] = {
             title: "12. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "선불",
-            options: ["후불", "선불", "유료", "합법"],
-            answer: 0,
-            explanation: "The antonym of '선불' (prepayment) is '후불' (deferred payment / pay later)."
+            options: ["유료", "후불", "합법", "선불"],
+            answer: 1,
+            explanation: "'선불'의 반댓말은 '후불'입니다."
         },
         {
             id: 13,
@@ -132,9 +132,9 @@ window.allExams["exam7"] = {
             title: "13. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "급여",
-            options: ["임금", "복장", "사원", "업무"],
-            answer: 0,
-            explanation: "The synonym for '급여' (salary) is '임금' (wages)."
+            options: ["사원", "임금", "업무", "복장"],
+            answer: 1,
+            explanation: "'급여'의 비슷한 말은 '임금'입니다."
         },
         {
             id: 14,
@@ -142,9 +142,9 @@ window.allExams["exam7"] = {
             title: "14. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "개강",
-            options: ["종강", "개강", "출석", "가입"],
+            options: ["종강", "출석", "가입", "개강"],
             answer: 0,
-            explanation: "The antonym of '개강' (start of semester) is '종강' (end of semester)."
+            explanation: "'개강'의 반댓말은 '종강'입니다."
         },
         {
             id: 15,
@@ -152,9 +152,9 @@ window.allExams["exam7"] = {
             title: "15. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "외부",
-            options: ["바깥", "안", "위", "아래"],
-            answer: 0,
-            explanation: "The synonym for '외부' (exterior / outside) is '바깥' (outside)."
+            options: ["위", "바깥", "아래", "안"],
+            answer: 1,
+            explanation: "'외부'의 비슷한 말은 '바깥'입니다."
         },
         {
             id: 16,
@@ -162,9 +162,9 @@ window.allExams["exam7"] = {
             title: "16. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "초보",
-            options: ["경력자", "초보", "선불", "후불"],
-            answer: 0,
-            explanation: "The antonym of '초보' (beginner / novice) is '경력자' (experienced person / veteran)."
+            options: ["선불", "초보", "경력자", "후불"],
+            answer: 2,
+            explanation: "'초보'의 반댓말은 '경력자'입니다."
         },
         {
             id: 17,
@@ -172,9 +172,9 @@ window.allExams["exam7"] = {
             title: "17. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "개업",
-            options: ["폐업", "개업", "수입", "무료"],
-            answer: 0,
-            explanation: "The antonym of '개업' (opening a business) is '폐업' (closing a business)."
+            options: ["수입", "폐업", "무료", "개업"],
+            answer: 1,
+            explanation: "'개업'의 반댓말은 '폐업'입니다."
         },
         {
             id: 18,
@@ -182,9 +182,9 @@ window.allExams["exam7"] = {
             title: "18. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "무료",
-            options: ["유료", "무료", "최고", "최저"],
-            answer: 0,
-            explanation: "The antonym of '무료' (free of charge) is '유료' (paid)."
+            options: ["최고", "유료", "최저", "무료"],
+            answer: 1,
+            explanation: "'무료'의 반댓말은 '유료'입니다."
         },
         {
             id: 19,
@@ -192,9 +192,9 @@ window.allExams["exam7"] = {
             title: "19. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "위생",
-            options: ["불결", "청결", "출석", "취업"],
-            answer: 0,
-            explanation: "The antonym of '위생' (hygiene) is '불결' (filthiness / uncleanness)."
+            options: ["청결", "불결", "취업", "출석"],
+            answer: 1,
+            explanation: "'위생'의 반댓말은 '불결'입니다."
         },
         {
             id: 20,
@@ -202,9 +202,9 @@ window.allExams["exam7"] = {
             title: "20. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "사유",
-            options: ["이유", "노동", "기준", "위생"],
-            answer: 0,
-            explanation: "The synonym for '사유' (reason / cause) is '이유' (reason)."
+            options: ["기준", "노동", "위생", "이유"],
+            answer: 3,
+            explanation: "'사유'의 비슷한 말은 '이유'입니다."
         },
         {
             id: 21,
@@ -212,9 +212,9 @@ window.allExams["exam7"] = {
             title: "21. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "노동",
-            options: ["근로", "이유", "기준", "위생"],
+            options: ["근로", "위생", "이유", "기준"],
             answer: 0,
-            explanation: "The synonym for '노동' (labor) is '근로' (labor / work)."
+            explanation: "'노동'의 비슷한 말은 '근로'입니다."
         },
         {
             id: 22,
@@ -222,9 +222,9 @@ window.allExams["exam7"] = {
             title: "22. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "사유",
-            options: ["원인", "노동", "기준", "위생"],
-            answer: 0,
-            explanation: "The synonym for '사유' (reason) is '원인' (cause)."
+            options: ["기준", "원인", "노동", "위생"],
+            answer: 1,
+            explanation: "'사유'의 비슷한 말은 '원인'입니다."
         },
         {
             id: 23,
@@ -232,9 +232,9 @@ window.allExams["exam7"] = {
             title: "23. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "조리",
-            options: ["요리", "비자", "허가", "업무"],
-            answer: 0,
-            explanation: "The synonym for '조리' (cooking / culinary preparation) is '요리' (cooking / dish)."
+            options: ["허가", "비자", "요리", "업무"],
+            answer: 2,
+            explanation: "'조리'의 비슷한 말은 '요리'입니다."
         },
         {
             id: 24,
@@ -242,9 +242,9 @@ window.allExams["exam7"] = {
             title: "24. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "복장",
-            options: ["옷차림", "임금", "조건", "허가"],
-            answer: 0,
-            explanation: "The synonym for '복장' (attire / clothing) is '옷차림' (outfit / attire)."
+            options: ["임금", "옷차림", "조건", "허가"],
+            answer: 1,
+            explanation: "'복장'의 비슷한 말은 '옷차림'입니다."
         },
         {
             id: 25,
@@ -252,9 +252,9 @@ window.allExams["exam7"] = {
             title: "25. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "아래",
-            options: ["위", "낮", "공용", "내부"],
-            answer: 0,
-            explanation: "The antonym of '아래' (below / bottom) is '위' (above / top)."
+            options: ["낮", "위", "내부", "공용"],
+            answer: 1,
+            explanation: "'아래'의 반댓말은 '위'입니다."
         },
         {
             id: 26,
@@ -262,9 +262,9 @@ window.allExams["exam7"] = {
             title: "26. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "사원",
-            options: ["직원", "급여", "자격", "요리"],
-            answer: 0,
-            explanation: "The synonym for '사원' (employee / company staff) is '직원' (employee / staff)."
+            options: ["자격", "요리", "직원", "급여"],
+            answer: 2,
+            explanation: "'사원'의 비슷한 말은 '직원'입니다."
         },
         {
             id: 27,
@@ -272,9 +272,9 @@ window.allExams["exam7"] = {
             title: "27. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "도구",
-            options: ["공구", "지역", "온도", "직원"],
-            answer: 0,
-            explanation: "The synonym for '도구' (tool) is '공구' (tool / equipment)."
+            options: ["지역", "온도", "공구", "직원"],
+            answer: 2,
+            explanation: "'도구'의 비슷한 말은 '공구'입니다."
         },
         {
             id: 28,
@@ -282,9 +282,9 @@ window.allExams["exam7"] = {
             title: "28. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "먹이",
-            options: ["사료", "요리", "비자", "허가"],
-            answer: 0,
-            explanation: "The synonym for '먹이' (feed / animal food) is '사료' (animal feed)."
+            options: ["요리", "허가", "비자", "사료"],
+            answer: 3,
+            explanation: "'먹이'의 비슷한 말은 '사료'입니다."
         },
         {
             id: 29,
@@ -292,9 +292,9 @@ window.allExams["exam7"] = {
             title: "29. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "자격",
-            options: ["조건", "사원", "급여", "복장"],
-            answer: 0,
-            explanation: "The synonym for '자격' (qualification) is '조건' (condition / requirement)."
+            options: ["급여", "복장", "조건", "사원"],
+            answer: 2,
+            explanation: "'자격'의 비슷한 말은 '조건'입니다."
         },
         {
             id: 30,
@@ -302,9 +302,9 @@ window.allExams["exam7"] = {
             title: "30. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "맞은편",
-            options: ["건너편", "가운데", "구역", "도구"],
-            answer: 0,
-            explanation: "The synonym for '맞은편' (opposite side / across) is '건너편' (the other side / across)."
+            options: ["가운데", "건너편", "도구", "구역"],
+            answer: 1,
+            explanation: "'맞은편'의 비슷한 말은 '건너편'입니다."
         },
         {
             id: 31,
@@ -312,9 +312,9 @@ window.allExams["exam7"] = {
             title: "31. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "달",
-            options: ["월", "현금", "야간", "가격"],
-            answer: 0,
-            explanation: "The synonym for '달' (month) is '월' (month)."
+            options: ["야간", "현금", "월", "가격"],
+            answer: 2,
+            explanation: "'달'의 비슷한 말은 '월'입니다."
         },
         {
             id: 32,
@@ -322,9 +322,9 @@ window.allExams["exam7"] = {
             title: "32. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "바닷가",
-            options: ["해변", "위생", "주소", "규칙"],
-            answer: 0,
-            explanation: "The synonym for '바닷가' (seashore / beach) is '해변' (beach / coast)."
+            options: ["위생", "주소", "해변", "규칙"],
+            answer: 2,
+            explanation: "'바닷가'의 비슷한 말은 '해변'입니다."
         },
         {
             id: 33,
@@ -332,9 +332,9 @@ window.allExams["exam7"] = {
             title: "33. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "지역",
-            options: ["구역", "온도", "도구", "옷차림"],
+            options: ["구역", "온도", "옷차림", "도구"],
             answer: 0,
-            explanation: "The synonym for '지역' (region / area) is '구역' (zone / district)."
+            explanation: "'지역'의 비슷한 말은 '구역'입니다."
         },
         {
             id: 34,
@@ -342,9 +342,9 @@ window.allExams["exam7"] = {
             title: "34. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "합법",
-            options: ["불법", "합법", "선불", "후불"],
-            answer: 0,
-            explanation: "The antonym of '합법' (legal) is '불법' (illegal)."
+            options: ["합법", "선불", "불법", "후불"],
+            answer: 2,
+            explanation: "'합법'의 반댓말은 '불법'입니다."
         },
         {
             id: 35,
@@ -352,9 +352,9 @@ window.allExams["exam7"] = {
             title: "35. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "입사",
-            options: ["퇴사", "입사", "개강", "수입"],
-            answer: 0,
-            explanation: "The antonym of '입사' (joining a company) is '퇴사' (leaving a company / resignation)."
+            options: ["입사", "개강", "수입", "퇴사"],
+            answer: 3,
+            explanation: "'입사'의 반댓말은 '퇴사'입니다."
         },
         {
             id: 36,
@@ -362,9 +362,9 @@ window.allExams["exam7"] = {
             title: "36. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "출석",
-            options: ["참석", "결석", "탈퇴", "종강"],
-            answer: 0,
-            explanation: "The synonym for '출석' (attendance) is '참석' (attendance / participation)."
+            options: ["탈퇴", "종강", "결석", "참석"],
+            answer: 3,
+            explanation: "'출석'의 비슷한 말은 '참석'입니다."
         },
         {
             id: 37,
@@ -372,9 +372,9 @@ window.allExams["exam7"] = {
             title: "37. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "입사",
-            options: ["취업", "퇴사", "결석", "거짓"],
-            answer: 0,
-            explanation: "The synonym for '입사' (entering a company) is '취업' (getting a job / employment)."
+            options: ["결석", "퇴사", "취업", "거짓"],
+            answer: 2,
+            explanation: "'입사'의 비슷한 말은 '취업'입니다."
         },
         {
             id: 38,
@@ -382,9 +382,9 @@ window.allExams["exam7"] = {
             title: "38. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "규칙",
-            options: ["규율", "바닷가", "청결", "가입"],
-            answer: 0,
-            explanation: "The synonym for '규칙' (rule) is '규율' (discipline / rules)."
+            options: ["청결", "바닷가", "규율", "가입"],
+            answer: 2,
+            explanation: "'규칙'의 비슷한 말은 '규율'입니다."
         },
         {
             id: 39,
@@ -392,9 +392,9 @@ window.allExams["exam7"] = {
             title: "39. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "비자",
-            options: ["사증", "허가", "요리", "먹이"],
-            answer: 0,
-            explanation: "The synonym for '비자' (visa) is '사증' (visa / entry permit)."
+            options: ["요리", "먹이", "허가", "사증"],
+            answer: 3,
+            explanation: "'비자'의 비슷한 말은 '사증'입니다."
         },
         {
             id: 40,
@@ -402,9 +402,9 @@ window.allExams["exam7"] = {
             title: "40. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "돈",
-            options: ["현금", "달", "값", "중간"],
-            answer: 0,
-            explanation: "The synonym for '돈' (money) is '현금' (cash)."
+            options: ["값", "현금", "중간", "달"],
+            answer: 1,
+            explanation: "'돈'의 비슷한 말은 '현금'입니다."
         },
         {
             id: 41,
@@ -412,9 +412,9 @@ window.allExams["exam7"] = {
             title: "41. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "최저",
-            options: ["최고", "최저", "무료", "유료"],
-            answer: 0,
-            explanation: "The antonym of '최저' (lowest / minimum) is '최고' (highest / maximum)."
+            options: ["유료", "무료", "최저", "최고"],
+            answer: 3,
+            explanation: "'최저'의 반댓말은 '최고'입니다."
         },
         {
             id: 42,
@@ -422,9 +422,9 @@ window.allExams["exam7"] = {
             title: "42. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "허가",
-            options: ["사증", "업무", "자격", "요리"],
-            answer: 0,
-            explanation: "The synonym for '허가' (permission / authorization) is '사증' (permit / visa)."
+            options: ["업무", "자격", "요리", "사증"],
+            answer: 3,
+            explanation: "'허가'의 비슷한 말은 '사증'입니다."
         },
         {
             id: 43,
@@ -432,9 +432,9 @@ window.allExams["exam7"] = {
             title: "43. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "외부",
-            options: ["내부", "위", "낮", "공용"],
-            answer: 0,
-            explanation: "The antonym of '외부' (outside) is '내부' (inside)."
+            options: ["위", "낮", "내부", "공용"],
+            answer: 2,
+            explanation: "'외부'의 반댓말은 '내부'입니다."
         },
         {
             id: 44,
@@ -442,9 +442,9 @@ window.allExams["exam7"] = {
             title: "44. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "전용",
-            options: ["공용", "위", "아래", "야간"],
+            options: ["공용", "위", "야간", "아래"],
             answer: 0,
-            explanation: "The antonym of '전용' (exclusive / private use) is '공용' (public / shared use)."
+            explanation: "'전용'의 반댓말은 '공용'입니다."
         },
         {
             id: 45,
@@ -452,9 +452,9 @@ window.allExams["exam7"] = {
             title: "45. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "진실",
-            options: ["거짓", "진실", "최고", "유료"],
-            answer: 0,
-            explanation: "The antonym of '진실' (truth) is '거짓' (falsehood / lie)."
+            options: ["진실", "유료", "최고", "거짓"],
+            answer: 3,
+            explanation: "'진실'의 반댓말은 '거짓'입니다."
         },
         {
             id: 46,
@@ -462,9 +462,9 @@ window.allExams["exam7"] = {
             title: "46. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "중간",
-            options: ["가운데", "밖", "구역", "온도"],
-            answer: 0,
-            explanation: "The synonym for '중간' (middle) is '가운데' (middle / center)."
+            options: ["온도", "밖", "구역", "가운데"],
+            answer: 3,
+            explanation: "'중간'의 비슷한 말은 '가운데'입니다."
         },
         {
             id: 47,
@@ -472,9 +472,9 @@ window.allExams["exam7"] = {
             title: "47. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "가입",
-            options: ["입사", "탈퇴", "퇴사", "폐업"],
-            answer: 0,
-            explanation: "The synonym for '가입' (joining) is '입사' (entering a company)."
+            options: ["폐업", "퇴사", "입사", "탈퇴"],
+            answer: 2,
+            explanation: "'가입'의 비슷한 말은 '입사'입니다."
         },
         {
             id: 48,
@@ -482,9 +482,9 @@ window.allExams["exam7"] = {
             title: "48. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "아래",
-            options: ["밑", "위", "중간", "밖"],
+            options: ["밑", "위", "밖", "중간"],
             answer: 0,
-            explanation: "The synonym for '아래' (below) is '밑' (under / underneath)."
+            explanation: "'아래'의 비슷한 말은 '밑'입니다."
         },
         {
             id: 49,
@@ -492,9 +492,9 @@ window.allExams["exam7"] = {
             title: "49. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "사료",
-            options: ["사료", "요리", "비자", "허가"],
-            answer: 0,
-            explanation: "The synonym for '사료' (feed) is '사료' (feed)."
+            options: ["요리", "사료", "허가", "비자"],
+            answer: 1,
+            explanation: "'사료'의 비슷한 말은 '사료'입니다."
         },
         {
             id: 50,
@@ -502,9 +502,9 @@ window.allExams["exam7"] = {
             title: "50. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "수출",
-            options: ["수입", "수출", "유료", "불법"],
-            answer: 0,
-            explanation: "The antonym of '수출' (export) is '수입' (import)."
+            options: ["불법", "수입", "유료", "수출"],
+            answer: 1,
+            explanation: "'수출'의 반댓말은 '수입'입니다."
         },
         {
             id: 51,
@@ -512,9 +512,9 @@ window.allExams["exam7"] = {
             title: "51. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "허가",
-            options: ["허락", "업무", "자격", "요리"],
-            answer: 0,
-            explanation: "The synonym for '허가' (permission) is '허락' (permission / approval)."
+            options: ["자격", "업무", "허락", "요리"],
+            answer: 2,
+            explanation: "'허가'의 비슷한 말은 '허락'입니다."
         },
         {
             id: 52,
@@ -522,9 +522,9 @@ window.allExams["exam7"] = {
             title: "52. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "출석",
-            options: ["결석", "참석", "가입", "개강"],
-            answer: 0,
-            explanation: "The antonym of '출석' (attendance) is '결석' (absence)."
+            options: ["가입", "결석", "개강", "참석"],
+            answer: 1,
+            explanation: "'출석'의 반댓말은 '결석'입니다."
         },
         {
             id: 53,
@@ -532,9 +532,9 @@ window.allExams["exam7"] = {
             title: "53. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "위생",
-            options: ["청결", "주소", "기준", "가입"],
-            answer: 0,
-            explanation: "The synonym for '위생' (hygiene) is '청결' (cleanliness)."
+            options: ["기준", "가입", "주소", "청결"],
+            answer: 3,
+            explanation: "'위생'의 비슷한 말은 '청결'입니다."
         },
         {
             id: 54,
@@ -542,9 +542,9 @@ window.allExams["exam7"] = {
             title: "54. 다음 단어의 반댓말은 무엇입니까?",
             topic: "반댓말 (Antonyms)",
             word: "밤",
-            options: ["낮", "위", "공용", "안"],
-            answer: 0,
-            explanation: "The antonym of '밤' (night) is '낮' (daytime)."
+            options: ["공용", "위", "낮", "안"],
+            answer: 2,
+            explanation: "'밤'의 반댓말은 '낮'입니다."
         },
         {
             id: 55,
@@ -552,9 +552,9 @@ window.allExams["exam7"] = {
             title: "55. 다음 단어의 비슷한 말은 무엇입니까?",
             topic: "비슷한 말 (Synonyms)",
             word: "외부",
-            options: ["바깥", "안", "중간", "밑"],
-            answer: 0,
-            explanation: "The synonym for '외부' (outside) is '바깥' (outside)."
+            options: ["안", "중간", "밑", "바깥"],
+            answer: 3,
+            explanation: "'외부'의 비슷한 말은 '바깥'입니다."
         }
     ]
 };
