@@ -14,7 +14,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 텐트",
             options: ["깎다", "켜다/끄다", "치다", "보다"],
             answer: 2,
-            explanation: "'테니스, 번개, 텐트'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 텐트' (Tennis, lightning, tent) are all nouns related to the verb '치다' (to play / strike / pitch)."
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ window.allExams["exam6"] = {
             word: "면접, 텔레비전, 콘서트",
             options: ["치다", "뽑다", "보다", "치우다"],
             answer: 2,
-            explanation: "'면접, 텔레비전, 콘서트'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'면접, 텔레비전, 콘서트' (Interview, television, concert) are all nouns related to the verb '보다' (to see / watch / take)."
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ window.allExams["exam6"] = {
             word: "자격증, 사과, 고추",
             options: ["타다", "치다", "따다", "뽑다"],
             answer: 2,
-            explanation: "'자격증, 사과, 고추'은(는) 모두 '따다'와(과) 관련된 명사들입니다."
+            explanation: "'자격증, 사과, 고추' (Certificate, apple, chili pepper) are all nouns related to the verb '따다' (to acquire/pick)."
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ window.allExams["exam6"] = {
             word: "오해, 스트레스, 넥타이",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 3,
-            explanation: "'오해, 스트레스, 넥타이'은(는) 모두 '풀다'와(과) 관련된 명사들입니다."
+            explanation: "'오해, 스트레스, 넥타이' (Misunderstanding, stress, tie) are all nouns related to the verb '풀다' (to resolve / relieve / untie)."
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 텐트",
             options: ["풀다", "깎다", "치다", "켜다/끄다"],
             answer: 2,
-            explanation: "'테니스, 농약, 텐트'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 텐트' (Tennis, pesticide, tent) are all nouns related to the verb '치다' (to play / spray / pitch)."
         },
         {
             id: 6,
@@ -64,7 +64,7 @@ window.allExams["exam6"] = {
             word: "시험, 텔레비전, 콘서트",
             options: ["보다", "치우다", "풀다", "깎다"],
             answer: 0,
-            explanation: "'시험, 텔레비전, 콘서트'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 텔레비전, 콘서트' (Exam, television, concert) are all nouns related to the verb '보다' (to take/watch)."
         },
         {
             id: 7,
@@ -74,7 +74,7 @@ window.allExams["exam6"] = {
             word: "가격, 연필, 머리",
             options: ["치우다", "풀다", "깎다", "지키다"],
             answer: 2,
-            explanation: "'가격, 연필, 머리'은(는) 모두 '깎다'와(과) 관련된 명사들입니다."
+            explanation: "'가격, 연필, 머리' (Price, pencil, hair) are all nouns related to the verb '깎다' (to discount / sharpen / cut)."
         },
         {
             id: 8,
@@ -84,7 +84,7 @@ window.allExams["exam6"] = {
             word: "지하철, 보험금, 월급, 커피",
             options: ["치다", "뽑다", "치우다", "타다"],
             answer: 3,
-            explanation: "'지하철, 보험금, 월급, 커피'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'지하철, 보험금, 월급, 커피' (Subway, insurance payout, salary, coffee) are all nouns related to the verb '타다' (to ride / receive / mix)."
         },
         {
             id: 9,
@@ -94,7 +94,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 번개, 농약, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 10,
@@ -104,7 +104,7 @@ window.allExams["exam6"] = {
             word: "면접, 콘서트, 영화",
             options: ["보다", "신청하다", "지키다", "돌리다"],
             answer: 0,
-            explanation: "'면접, 콘서트, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'면접, 콘서트, 영화' (Interview, concert, movie) are all nouns related to the verb '보다' (to watch/attend)."
         },
         {
             id: 11,
@@ -114,7 +114,7 @@ window.allExams["exam6"] = {
             word: "집, 미소, 건물",
             options: ["풀다", "깎다", "짓다", "켜다/끄다"],
             answer: 2,
-            explanation: "'집, 미소, 건물'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 미소, 건물' (House, smile, building) are all nouns related to the verb '짓다' (to build / form / make)."
         },
         {
             id: 12,
@@ -124,7 +124,7 @@ window.allExams["exam6"] = {
             word: "법, 규칙, 약속",
             options: ["치우다", "지키다", "풀다", "깎다"],
             answer: 1,
-            explanation: "'법, 규칙, 약속'은(는) 모두 '지키다'와(과) 관련된 명사들입니다."
+            explanation: "'법, 규칙, 약속' (Law, rule, promise) are all nouns related to the verb '지키다' (to keep / obey)."
         },
         {
             id: 13,
@@ -134,7 +134,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 텐트, 기타",
             options: ["타다", "치다", "뽑다", "치우다"],
             answer: 1,
-            explanation: "'테니스, 농약, 텐트, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 텐트, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 14,
@@ -144,7 +144,7 @@ window.allExams["exam6"] = {
             word: "시험, 면접, 영화",
             options: ["타다", "치다", "뽑다", "보다"],
             answer: 3,
-            explanation: "'시험, 면접, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 면접, 영화' are all nouns related to the verb '보다'."
         },
         {
             id: 15,
@@ -154,7 +154,7 @@ window.allExams["exam6"] = {
             word: "법, 약속, 예의",
             options: ["지키다", "돌리다", "따다", "타다"],
             answer: 0,
-            explanation: "'법, 약속, 예의'은(는) 모두 '지키다'와(과) 관련된 명사들입니다."
+            explanation: "'법, 약속, 예의' (Law, promise, manners) are all nouns related to the verb '지키다' (to keep / observe)."
         },
         {
             id: 16,
@@ -164,7 +164,7 @@ window.allExams["exam6"] = {
             word: "비자, 여권, 휴가, 보험금",
             options: ["뽑다", "신청하다", "치우다", "풀다"],
             answer: 1,
-            explanation: "'비자, 여권, 휴가, 보험금'은(는) 모두 '신청하다'와(과) 관련된 명사들입니다."
+            explanation: "'비자, 여권, 휴가, 보험금' (Visa, passport, vacation, insurance claim) are all nouns related to the verb '신청하다' (to apply for)."
         },
         {
             id: 17,
@@ -174,7 +174,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 번개, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 18,
@@ -184,7 +184,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 텐트, 그물",
             options: ["신청하다", "지키다", "치다", "따다"],
             answer: 2,
-            explanation: "'테니스, 번개, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 19,
@@ -194,7 +194,7 @@ window.allExams["exam6"] = {
             word: "가격, 연필, 사과",
             options: ["타다", "치다", "깎다", "뽑다"],
             answer: 2,
-            explanation: "'가격, 연필, 사과'은(는) 모두 '깎다'와(과) 관련된 명사들입니다."
+            explanation: "'가격, 연필, 사과' are all nouns related to the verb '깎다'."
         },
         {
             id: 20,
@@ -204,7 +204,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 그물, 기타",
             options: ["풀다", "깎다", "치다", "켜다/끄다"],
             answer: 2,
-            explanation: "'테니스, 농약, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 21,
@@ -214,7 +214,7 @@ window.allExams["exam6"] = {
             word: "지하철, 보험금, 월급",
             options: ["치다", "뽑다", "치우다", "타다"],
             answer: 3,
-            explanation: "'지하철, 보험금, 월급'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'지하철, 보험금, 월급' are all nouns related to the verb '타다'."
         },
         {
             id: 22,
@@ -224,7 +224,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 텐트, 그물",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 번개, 농약, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 23,
@@ -234,7 +234,7 @@ window.allExams["exam6"] = {
             word: "시험, 면접, 콘서트",
             options: ["지키다", "돌리다", "보다", "따다"],
             answer: 2,
-            explanation: "'시험, 면접, 콘서트'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 면접, 콘서트' are all nouns related to the verb '보다'."
         },
         {
             id: 24,
@@ -244,7 +244,7 @@ window.allExams["exam6"] = {
             word: "오해, 스트레스, 문제, 넥타이",
             options: ["돌리다", "따다", "풀다", "타다"],
             answer: 2,
-            explanation: "'오해, 스트레스, 문제, 넥타이'은(는) 모두 '풀다'와(과) 관련된 명사들입니다."
+            explanation: "'오해, 스트레스, 문제, 넥타이' are all nouns related to the verb '풀다'."
         },
         {
             id: 25,
@@ -254,7 +254,7 @@ window.allExams["exam6"] = {
             word: "집, 미소, 농사",
             options: ["치다", "뽑다", "짓다", "치우다"],
             answer: 2,
-            explanation: "'집, 미소, 농사'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 미소, 농사' (House, smile, farming) are all nouns related to the verb '짓다' (to build / put on a smile / farm)."
         },
         {
             id: 26,
@@ -264,7 +264,7 @@ window.allExams["exam6"] = {
             word: "세탁기, 고개, 허리",
             options: ["돌리다", "따다", "타다", "치다"],
             answer: 0,
-            explanation: "'세탁기, 고개, 허리'은(는) 모두 '돌리다'와(과) 관련된 명사들입니다."
+            explanation: "'세탁기, 고개, 허리' (Washing machine, head/neck, waist) are all nouns related to the verb '돌리다' (to spin / turn / stretch)."
         },
         {
             id: 27,
@@ -274,7 +274,7 @@ window.allExams["exam6"] = {
             word: "번개, 농약, 텐트, 기타",
             options: ["타다", "치다", "뽑다", "치우다"],
             answer: 1,
-            explanation: "'번개, 농약, 텐트, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'번개, 농약, 텐트, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 28,
@@ -284,7 +284,7 @@ window.allExams["exam6"] = {
             word: "집, 밥, 농사",
             options: ["보다", "신청하다", "짓다", "지키다"],
             answer: 2,
-            explanation: "'집, 밥, 농사'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 밥, 농사' are all nouns related to the verb '짓다'."
         },
         {
             id: 29,
@@ -294,7 +294,7 @@ window.allExams["exam6"] = {
             word: "자격증, 사과, 고추, 버섯",
             options: ["타다", "치다", "따다", "뽑다"],
             answer: 2,
-            explanation: "'자격증, 사과, 고추, 버섯'은(는) 모두 '따다'와(과) 관련된 명사들입니다."
+            explanation: "'자격증, 사과, 고추, 버섯' are all nouns related to the verb '따다'."
         },
         {
             id: 30,
@@ -304,7 +304,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 텐트, 그물",
             options: ["신청하다", "지키다", "치다", "따다"],
             answer: 2,
-            explanation: "'테니스, 농약, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 31,
@@ -314,7 +314,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 텐트",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 번개, 농약, 텐트'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 텐트' are all nouns related to the verb '치다'."
         },
         {
             id: 32,
@@ -324,7 +324,7 @@ window.allExams["exam6"] = {
             word: "비자, 여권, 휴가",
             options: ["뽑다", "신청하다", "치우다", "풀다"],
             answer: 1,
-            explanation: "'비자, 여권, 휴가'은(는) 모두 '신청하다'와(과) 관련된 명사들입니다."
+            explanation: "'비자, 여권, 휴가' are all nouns related to the verb '신청하다'."
         },
         {
             id: 33,
@@ -334,7 +334,7 @@ window.allExams["exam6"] = {
             word: "비자, 여권, 보험금",
             options: ["깎다", "켜다/끄다", "신청하다", "보다"],
             answer: 2,
-            explanation: "'비자, 여권, 보험금'은(는) 모두 '신청하다'와(과) 관련된 명사들입니다."
+            explanation: "'비자, 여권, 보험금' are all nouns related to the verb '신청하다'."
         },
         {
             id: 34,
@@ -344,7 +344,7 @@ window.allExams["exam6"] = {
             word: "번개, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'번개, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'번개, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 35,
@@ -354,7 +354,7 @@ window.allExams["exam6"] = {
             word: "집, 밥, 건물",
             options: ["돌리다", "따다", "짓다", "타다"],
             answer: 2,
-            explanation: "'집, 밥, 건물'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 밥, 건물' are all nouns related to the verb '짓다'."
         },
         {
             id: 36,
@@ -364,7 +364,7 @@ window.allExams["exam6"] = {
             word: "난로, 스위치, 선풍기, 휴대전화",
             options: ["보다", "캐다", "켜다/끄다", "신청하다"],
             answer: 2,
-            explanation: "'난로, 스위치, 선풍기, 휴대전화'은(는) 모두 '켜다/끄다'와(과) 관련된 명사들입니다."
+            explanation: "'난로, 스위치, 선풍기, 휴대전화' (Heater, switch, electric fan, mobile phone) are all nouns related to the verb/action '켜다/끄다' (to turn on/off)."
         },
         {
             id: 37,
@@ -374,7 +374,7 @@ window.allExams["exam6"] = {
             word: "테니스, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 38,
@@ -384,7 +384,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 텐트, 그물",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 번개, 농약, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 39,
@@ -394,7 +394,7 @@ window.allExams["exam6"] = {
             word: "번개, 농약, 텐트, 그물",
             options: ["신청하다", "지키다", "치다", "따다"],
             answer: 2,
-            explanation: "'번개, 농약, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'번개, 농약, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 40,
@@ -404,7 +404,7 @@ window.allExams["exam6"] = {
             word: "번개, 농약, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'번개, 농약, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'번개, 농약, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 41,
@@ -414,7 +414,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 기타",
             options: ["타다", "치다", "뽑다", "치우다"],
             answer: 1,
-            explanation: "'테니스, 번개, 농약, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 42,
@@ -424,7 +424,7 @@ window.allExams["exam6"] = {
             word: "시험, 면접, 영화",
             options: ["타다", "치다", "뽑다", "보다"],
             answer: 3,
-            explanation: "'시험, 면접, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 면접, 영화' are all nouns related to the verb '보다'."
         },
         {
             id: 43,
@@ -434,7 +434,7 @@ window.allExams["exam6"] = {
             word: "오해, 문제, 넥타이",
             options: ["깎다", "켜다/끄다", "풀다", "보다"],
             answer: 2,
-            explanation: "'오해, 문제, 넥타이'은(는) 모두 '풀다'와(과) 관련된 명사들입니다."
+            explanation: "'오해, 문제, 넥타이' are all nouns related to the verb '풀다'."
         },
         {
             id: 44,
@@ -444,7 +444,7 @@ window.allExams["exam6"] = {
             word: "지하철, 보험금, 월급",
             options: ["치다", "뽑다", "치우다", "타다"],
             answer: 3,
-            explanation: "'지하철, 보험금, 월급'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'지하철, 보험금, 월급' are all nouns related to the verb '타다'."
         },
         {
             id: 45,
@@ -454,7 +454,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 농약, 그물",
             options: ["신청하다", "지키다", "치다", "따다"],
             answer: 2,
-            explanation: "'테니스, 번개, 농약, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 농약, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 46,
@@ -464,7 +464,7 @@ window.allExams["exam6"] = {
             word: "번개, 농약, 그물, 기타",
             options: ["풀다", "깎다", "치다", "켜다/끄다"],
             answer: 2,
-            explanation: "'번개, 농약, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'번개, 농약, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 47,
@@ -474,7 +474,7 @@ window.allExams["exam6"] = {
             word: "법, 규칙, 예의",
             options: ["켜다/끄다", "보다", "신청하다", "지키다"],
             answer: 3,
-            explanation: "'법, 규칙, 예의'은(는) 모두 '지키다'와(과) 관련된 명사들입니다."
+            explanation: "'법, 규칙, 예의' are all nouns related to the verb '지키다'."
         },
         {
             id: 48,
@@ -484,7 +484,7 @@ window.allExams["exam6"] = {
             word: "지하철, 월급, 커피",
             options: ["보다", "타다", "신청하다", "지키다"],
             answer: 1,
-            explanation: "'지하철, 월급, 커피'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'지하철, 월급, 커피' are all nouns related to the verb '타다'."
         },
         {
             id: 49,
@@ -494,7 +494,7 @@ window.allExams["exam6"] = {
             word: "테니스, 번개, 그물",
             options: ["신청하다", "지키다", "치다", "따다"],
             answer: 2,
-            explanation: "'테니스, 번개, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 번개, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 50,
@@ -504,7 +504,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 텐트, 그물, 기타",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 농약, 텐트, 그물, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 텐트, 그물, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 51,
@@ -514,7 +514,7 @@ window.allExams["exam6"] = {
             word: "시험, 면접, 텔레비전, 콘서트, 영화",
             options: ["캐다", "보다", "신청하다", "지키다"],
             answer: 1,
-            explanation: "'시험, 면접, 텔레비전, 콘서트, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 면접, 텔레비전, 콘서트, 영화' are all nouns related to the verb '보다'."
         },
         {
             id: 52,
@@ -524,7 +524,7 @@ window.allExams["exam6"] = {
             word: "오해, 스트레스, 문제",
             options: ["돌리다", "따다", "풀다", "타다"],
             answer: 2,
-            explanation: "'오해, 스트레스, 문제'은(는) 모두 '풀다'와(과) 관련된 명사들입니다."
+            explanation: "'오해, 스트레스, 문제' are all nouns related to the verb '풀다'."
         },
         {
             id: 53,
@@ -534,7 +534,7 @@ window.allExams["exam6"] = {
             word: "집, 밥, 미소, 농사, 건물",
             options: ["풀다", "깎다", "짓다", "켜다/끄다"],
             answer: 2,
-            explanation: "'집, 밥, 미소, 농사, 건물'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 밥, 미소, 농사, 건물' are all nouns related to the verb '짓다'."
         },
         {
             id: 54,
@@ -544,7 +544,7 @@ window.allExams["exam6"] = {
             word: "테니스, 농약, 기타",
             options: ["돌리다", "따다", "치다", "타다"],
             answer: 2,
-            explanation: "'테니스, 농약, 기타'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 농약, 기타' are all nouns related to the verb '치다'."
         },
         {
             id: 55,
@@ -554,7 +554,7 @@ window.allExams["exam6"] = {
             word: "법, 규칙, 약속, 예의",
             options: ["치우다", "지키다", "풀다", "깎다"],
             answer: 1,
-            explanation: "'법, 규칙, 약속, 예의'은(는) 모두 '지키다'와(과) 관련된 명사들입니다."
+            explanation: "'법, 규칙, 약속, 예의' are all nouns related to the verb '지키다'."
         },
         {
             id: 56,
@@ -564,7 +564,7 @@ window.allExams["exam6"] = {
             word: "가격, 사과, 머리",
             options: ["켜다/끄다", "깎다", "신청하다", "보다"],
             answer: 1,
-            explanation: "'가격, 사과, 머리'은(는) 모두 '깎다'와(과) 관련된 명사들입니다."
+            explanation: "'가격, 사과, 머리' are all nouns related to the verb '깎다'."
         },
         {
             id: 57,
@@ -574,7 +574,7 @@ window.allExams["exam6"] = {
             word: "세탁기, 고개, 허리, 청소기",
             options: ["돌리다", "따다", "타다", "치다"],
             answer: 0,
-            explanation: "'세탁기, 고개, 허리, 청소기'은(는) 모두 '돌리다'와(과) 관련된 명사들입니다."
+            explanation: "'세탁기, 고개, 허리, 청소기' are all nouns related to the verb '돌리다'."
         },
         {
             id: 58,
@@ -584,7 +584,7 @@ window.allExams["exam6"] = {
             word: "테니스, 텐트, 그물",
             options: ["치다", "뽑다", "치우다", "풀다"],
             answer: 0,
-            explanation: "'테니스, 텐트, 그물'은(는) 모두 '치다'와(과) 관련된 명사들입니다."
+            explanation: "'테니스, 텐트, 그물' are all nouns related to the verb '치다'."
         },
         {
             id: 59,
@@ -594,7 +594,7 @@ window.allExams["exam6"] = {
             word: "감자, 고구마",
             options: ["타다", "치다", "캐다", "뽑다"],
             answer: 2,
-            explanation: "'감자, 고구마'은(는) 모두 '캐다'와(과) 관련된 명사들입니다."
+            explanation: "'감자, 고구마' (Potatoes, sweet potatoes) are all nouns related to the verb '캐다' (to dig up)."
         },
         {
             id: 60,
@@ -604,7 +604,7 @@ window.allExams["exam6"] = {
             word: "보험금, 월급, 커피",
             options: ["돌리다", "따다", "타다", "치다"],
             answer: 2,
-            explanation: "'보험금, 월급, 커피'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'보험금, 월급, 커피' are all nouns related to the verb '타다'."
         },
         {
             id: 61,
@@ -614,7 +614,7 @@ window.allExams["exam6"] = {
             word: "지하철, 보험금, 커피",
             options: ["풀다", "깎다", "타다", "켜다/끄다"],
             answer: 2,
-            explanation: "'지하철, 보험금, 커피'은(는) 모두 '타다'와(과) 관련된 명사들입니다."
+            explanation: "'지하철, 보험금, 커피' are all nouns related to the verb '타다'."
         },
         {
             id: 62,
@@ -624,7 +624,7 @@ window.allExams["exam6"] = {
             word: "자격증, 사과, 버섯",
             options: ["치우다", "풀다", "따다", "깎다"],
             answer: 2,
-            explanation: "'자격증, 사과, 버섯'은(는) 모두 '따다'와(과) 관련된 명사들입니다."
+            explanation: "'자격증, 사과, 버섯' are all nouns related to the verb '따다'."
         },
         {
             id: 63,
@@ -634,7 +634,7 @@ window.allExams["exam6"] = {
             word: "시험, 면접, 텔레비전",
             options: ["지키다", "돌리다", "보다", "따다"],
             answer: 2,
-            explanation: "'시험, 면접, 텔레비전'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 면접, 텔레비전' are all nouns related to the verb '보다'."
         },
         {
             id: 64,
@@ -644,7 +644,7 @@ window.allExams["exam6"] = {
             word: "시험, 텔레비전, 영화",
             options: ["캐다", "신청하다", "보다", "지키다"],
             answer: 2,
-            explanation: "'시험, 텔레비전, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 텔레비전, 영화' are all nouns related to the verb '보다'."
         },
         {
             id: 65,
@@ -654,7 +654,7 @@ window.allExams["exam6"] = {
             word: "집, 밥, 농사, 건물",
             options: ["보다", "신청하다", "짓다", "지키다"],
             answer: 2,
-            explanation: "'집, 밥, 농사, 건물'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 밥, 농사, 건물' are all nouns related to the verb '짓다'."
         },
         {
             id: 66,
@@ -664,7 +664,7 @@ window.allExams["exam6"] = {
             word: "시험, 콘서트, 영화",
             options: ["돌리다", "보다", "따다", "타다"],
             answer: 1,
-            explanation: "'시험, 콘서트, 영화'은(는) 모두 '보다'와(과) 관련된 명사들입니다."
+            explanation: "'시험, 콘서트, 영화' are all nouns related to the verb '보다'."
         },
         {
             id: 67,
@@ -674,7 +674,7 @@ window.allExams["exam6"] = {
             word: "세탁기, 고개, 청소기",
             options: ["뽑다", "치우다", "돌리다", "풀다"],
             answer: 2,
-            explanation: "'세탁기, 고개, 청소기'은(는) 모두 '돌리다'와(과) 관련된 명사들입니다."
+            explanation: "'세탁기, 고개, 청소기' are all nouns related to the verb '돌리다'."
         },
         {
             id: 68,
@@ -684,7 +684,7 @@ window.allExams["exam6"] = {
             word: "자격증, 고추, 버섯",
             options: ["켜다/끄다", "따다", "신청하다", "지키다"],
             answer: 1,
-            explanation: "'자격증, 고추, 버섯'은(는) 모두 '따다'와(과) 관련된 명사들입니다."
+            explanation: "'자격증, 고추, 버섯' are all nouns related to the verb '따다'."
         },
         {
             id: 69,
@@ -694,7 +694,7 @@ window.allExams["exam6"] = {
             word: "카드, 번호표, 플러그",
             options: ["뽑다", "치우다", "풀다", "깎다"],
             answer: 0,
-            explanation: "'카드, 번호표, 플러그'은(는) 모두 '뽑다'와(과) 관련된 명사들입니다."
+            explanation: "'카드, 번호표, 플러그' (Card, ticket number, plug) are all nouns related to the verb '뽑다' (to pull out / draw)."
         },
         {
             id: 70,
@@ -704,7 +704,7 @@ window.allExams["exam6"] = {
             word: "가격, 연필, 사과, 머리",
             options: ["타다", "치다", "깎다", "뽑다"],
             answer: 2,
-            explanation: "'가격, 연필, 사과, 머리'은(는) 모두 '깎다'와(과) 관련된 명사들입니다."
+            explanation: "'가격, 연필, 사과, 머리' are all nouns related to the verb '깎다'."
         },
         {
             id: 71,
@@ -714,7 +714,7 @@ window.allExams["exam6"] = {
             word: "분뇨, 쓰레기",
             options: ["치우다", "뽑다", "풀다", "깎다"],
             answer: 0,
-            explanation: "'분뇨, 쓰레기'은(는) 모두 '치우다'와(과) 관련된 명사들입니다."
+            explanation: "'분뇨, 쓰레기' (Excrement, garbage) are all nouns related to the verb '치우다' (to clear away / clean up)."
         },
         {
             id: 72,
@@ -724,7 +724,7 @@ window.allExams["exam6"] = {
             word: "거리",
             options: ["가볍다, 무겁다", "가깝다, 멀다", "짧다, 길다", "기쁘다, 슬프다, 화나다, 무섭다, 불안하다"],
             answer: 1,
-            explanation: "'거리'은(는) 모두 '가깝다, 멀다'와(과) 관련된 명사들입니다."
+            explanation: "'거리' (Distance) is related to the adjectives '가깝다, 멀다' (close, far)."
         },
         {
             id: 73,
@@ -734,7 +734,7 @@ window.allExams["exam6"] = {
             word: "무게",
             options: ["가볍다, 무겁다", "가깝다, 멀다", "짧다, 길다", "신청하다"],
             answer: 0,
-            explanation: "'무게'은(는) 모두 '가볍다, 무겁다'와(과) 관련된 명사들입니다."
+            explanation: "'무게' (Weight) is related to the adjectives '가볍다, 무겁다' (light, heavy)."
         },
         {
             id: 74,
@@ -744,7 +744,7 @@ window.allExams["exam6"] = {
             word: "길이",
             options: ["짧다, 길다", "가깝다, 멀다", "가볍다, 무겁다", "돌리다"],
             answer: 0,
-            explanation: "'길이'은(는) 모두 '짧다, 길다'와(과) 관련된 명사들입니다."
+            explanation: "'길이' (Length) is related to the adjectives '짧다, 길다' (short, long)."
         },
         {
             id: 75,
@@ -754,7 +754,7 @@ window.allExams["exam6"] = {
             word: "감정",
             options: ["기쁘다, 슬프다, 화나다, 무섭다, 불안하다", "가볍다, 무겁다", "가깝다, 멀다", "짧다, 길다"],
             answer: 0,
-            explanation: "'감정'은(는) 모두 '기쁘다, 슬프다, 화나다, 무섭다, 불안하다'와(과) 관련된 명사들입니다."
+            explanation: "'감정' (Emotion) is related to emotional adjectives like '기쁘다, 슬프다, 화나다, 무섭다, 불안하다' (happy, sad, angry, scared, anxious)."
         },
         {
             id: 76,
@@ -764,7 +764,7 @@ window.allExams["exam6"] = {
             word: "비자, 여권, 휴가",
             options: ["뽑다", "신청하다", "치우다", "풀다"],
             answer: 1,
-            explanation: "'비자, 여권, 휴가'은(는) 모두 '신청하다'와(과) 관련된 명사들입니다."
+            explanation: "'비자, 여권, 휴가' are all nouns related to the verb '신청하다'."
         },
         {
             id: 77,
@@ -774,7 +774,7 @@ window.allExams["exam6"] = {
             word: "법, 규칙, 예의",
             options: ["켜다/끄다", "보다", "신청하다", "지키다"],
             answer: 3,
-            explanation: "'법, 규칙, 예의'은(는) 모두 '지키다'와(과) 관련된 명사들입니다."
+            explanation: "'법, 규칙, 예의' are all nouns related to the verb '지키다'."
         },
         {
             id: 78,
@@ -784,7 +784,7 @@ window.allExams["exam6"] = {
             word: "집, 밥, 미소",
             options: ["풀다", "깎다", "짓다", "켜다/끄다"],
             answer: 2,
-            explanation: "'집, 밥, 미소'은(는) 모두 '짓다'와(과) 관련된 명사들입니다."
+            explanation: "'집, 밥, 미소' are all nouns related to the verb '짓다'."
         },
         {
             id: 79,
@@ -794,7 +794,7 @@ window.allExams["exam6"] = {
             word: "난로, 스위치, 선풍기",
             options: ["보다", "캐다", "켜다/끄다", "신청하다"],
             answer: 2,
-            explanation: "'난로, 스위치, 선풍기'은(는) 모두 '켜다/끄다'와(과) 관련된 명사들입니다."
+            explanation: "'난로, 스위치, 선풍기' are all nouns related to the verb/action '켜다/끄다'."
         }
     ]
 };
