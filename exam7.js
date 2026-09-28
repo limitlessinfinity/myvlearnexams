@@ -14,7 +14,7 @@ window.allExams["exam7"] = {
             word: "업무",
             options: ["허가", "일", "사료", "비자"],
             answer: 1,
-            explanation: "'업무'의 비슷한 말은 '일'입니다."
+            explanation: "The synonym for '업무' (business/task) is '일' (work/task)."
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ window.allExams["exam7"] = {
             word: "기온",
             options: ["지역", "임금", "온도", "도구"],
             answer: 2,
-            explanation: "'기온'의 비슷한 말은 '온도'입니다."
+            explanation: "The synonym for '기온' (air temperature) is '온도' (temperature)."
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ window.allExams["exam7"] = {
             word: "규칙",
             options: ["바닷가", "수칙", "가입", "청결"],
             answer: 1,
-            explanation: "'규칙'의 비슷한 말은 '수칙'입니다."
+            explanation: "The synonym for '규칙' (rule/regulation) is '수칙' (rule/code of conduct)."
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ window.allExams["exam7"] = {
             word: "실내",
             options: ["실내", "불법", "실외", "합법"],
             answer: 2,
-            explanation: "'실내'의 반댓말은 '실외'입니다."
+            explanation: "The antonym of '실내' (indoors) is '실외' (outdoors)."
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ window.allExams["exam7"] = {
             word: "위생",
             options: ["주소", "기준", "청결", "가입"],
             answer: 2,
-            explanation: "'위생'의 비슷한 말은 '청결'입니다."
+            explanation: "The synonym for '위생' (hygiene/sanitation) is '청결' (cleanliness)."
         },
         {
             id: 6,
@@ -64,7 +64,7 @@ window.allExams["exam7"] = {
             word: "주소",
             options: ["표준", "위생", "소재지", "규칙"],
             answer: 2,
-            explanation: "'주소'의 비슷한 말은 '소재지'입니다."
+            explanation: "The synonym for '주소' (address) is '소재지' (location/site)."
         },
         {
             id: 7,
@@ -74,7 +74,7 @@ window.allExams["exam7"] = {
             word: "가격",
             options: ["달", "값", "돈", "밤"],
             answer: 1,
-            explanation: "'가격'의 비슷한 말은 '값'입니다."
+            explanation: "The synonym for '가격' (price) is '값' (price/cost)."
         },
         {
             id: 8,
@@ -84,7 +84,7 @@ window.allExams["exam7"] = {
             word: "가입",
             options: ["출석", "가입", "종강", "탈퇴"],
             answer: 3,
-            explanation: "'가입'의 반댓말은 '탈퇴'입니다."
+            explanation: "The antonym of '가입' (joining/subscribing) is '탈퇴' (withdrawing/canceling)."
         },
         {
             id: 9,
@@ -94,7 +94,7 @@ window.allExams["exam7"] = {
             word: "급여",
             options: ["사원", "월급", "복장", "업무"],
             answer: 1,
-            explanation: "'급여'의 비슷한 말은 '월급'입니다."
+            explanation: "The synonym for '급여' (salary/pay) is '월급' (monthly salary)."
         },
         {
             id: 10,
@@ -104,7 +104,7 @@ window.allExams["exam7"] = {
             word: "밤",
             options: ["달", "가격", "야간", "돈"],
             answer: 2,
-            explanation: "'밤'의 비슷한 말은 '야간'입니다."
+            explanation: "The synonym for '밤' (night) is '야간' (nighttime)."
         },
         {
             id: 11,
@@ -114,7 +114,7 @@ window.allExams["exam7"] = {
             word: "표준",
             options: ["사유", "기준", "해변", "소재"],
             answer: 1,
-            explanation: "'표준'의 비슷한 말은 '기준'입니다."
+            explanation: "The synonym for '표준' (standard) is '기준' (criterion/standard)."
         },
         {
             id: 12,
@@ -124,7 +124,7 @@ window.allExams["exam7"] = {
             word: "선불",
             options: ["유료", "후불", "합법", "선불"],
             answer: 1,
-            explanation: "'선불'의 반댓말은 '후불'입니다."
+            explanation: "The antonym of '선불' (prepayment) is '후불' (postpayment/pay later)."
         },
         {
             id: 13,
@@ -134,7 +134,7 @@ window.allExams["exam7"] = {
             word: "급여",
             options: ["사원", "임금", "업무", "복장"],
             answer: 1,
-            explanation: "'급여'의 비슷한 말은 '임금'입니다."
+            explanation: "The synonym for '급여' (salary/pay) is '임금' (wage/pay)."
         },
         {
             id: 14,
@@ -144,7 +144,7 @@ window.allExams["exam7"] = {
             word: "개강",
             options: ["종강", "출석", "가입", "개강"],
             answer: 0,
-            explanation: "'개강'의 반댓말은 '종강'입니다."
+            explanation: "The antonym of '개강' (start of semester) is '종강' (end of semester)."
         },
         {
             id: 15,
@@ -154,7 +154,7 @@ window.allExams["exam7"] = {
             word: "외부",
             options: ["위", "바깥", "아래", "안"],
             answer: 1,
-            explanation: "'외부'의 비슷한 말은 '바깥'입니다."
+            explanation: "The synonym for '외부' (outside) is '바깥' (outside/exterior)."
         },
         {
             id: 16,
@@ -164,7 +164,7 @@ window.allExams["exam7"] = {
             word: "초보",
             options: ["선불", "초보", "경력자", "후불"],
             answer: 2,
-            explanation: "'초보'의 반댓말은 '경력자'입니다."
+            explanation: "The antonym of '초보' (beginner) is '경력자' (experienced person/expert)."
         },
         {
             id: 17,
@@ -174,7 +174,7 @@ window.allExams["exam7"] = {
             word: "개업",
             options: ["수입", "폐업", "무료", "개업"],
             answer: 1,
-            explanation: "'개업'의 반댓말은 '폐업'입니다."
+            explanation: "The antonym of '개업' (opening a business) is '폐업' (closing a business)."
         },
         {
             id: 18,
@@ -184,7 +184,7 @@ window.allExams["exam7"] = {
             word: "무료",
             options: ["최고", "유료", "최저", "무료"],
             answer: 1,
-            explanation: "'무료'의 반댓말은 '유료'입니다."
+            explanation: "The antonym of '무료' (free of charge) is '유료' (paid)."
         },
         {
             id: 19,
@@ -194,7 +194,7 @@ window.allExams["exam7"] = {
             word: "위생",
             options: ["청결", "불결", "취업", "출석"],
             answer: 1,
-            explanation: "'위생'의 반댓말은 '불결'입니다."
+            explanation: "The antonym of '위생' (hygiene) is '불결' (filthiness/uncleanliness)."
         },
         {
             id: 20,
@@ -204,7 +204,7 @@ window.allExams["exam7"] = {
             word: "사유",
             options: ["기준", "노동", "위생", "이유"],
             answer: 3,
-            explanation: "'사유'의 비슷한 말은 '이유'입니다."
+            explanation: "The synonym for '사유' (reason) is '이유' (reason)."
         },
         {
             id: 21,
@@ -214,7 +214,7 @@ window.allExams["exam7"] = {
             word: "노동",
             options: ["근로", "위생", "이유", "기준"],
             answer: 0,
-            explanation: "'노동'의 비슷한 말은 '근로'입니다."
+            explanation: "The synonym for '노동' (labor) is '근로' (labor/work)."
         },
         {
             id: 22,
@@ -224,7 +224,7 @@ window.allExams["exam7"] = {
             word: "사유",
             options: ["기준", "원인", "노동", "위생"],
             answer: 1,
-            explanation: "'사유'의 비슷한 말은 '원인'입니다."
+            explanation: "The synonym for '사유' (reason/cause) is '원인' (cause)."
         },
         {
             id: 23,
@@ -234,7 +234,7 @@ window.allExams["exam7"] = {
             word: "조리",
             options: ["허가", "비자", "요리", "업무"],
             answer: 2,
-            explanation: "'조리'의 비슷한 말은 '요리'입니다."
+            explanation: "The synonym for '조리' (cooking) is '요리' (cooking/dish)."
         },
         {
             id: 24,
@@ -244,7 +244,7 @@ window.allExams["exam7"] = {
             word: "복장",
             options: ["임금", "옷차림", "조건", "허가"],
             answer: 1,
-            explanation: "'복장'의 비슷한 말은 '옷차림'입니다."
+            explanation: "The synonym for '복장' (attire) is '옷차림' (outfit/attire)."
         },
         {
             id: 25,
@@ -254,7 +254,7 @@ window.allExams["exam7"] = {
             word: "아래",
             options: ["낮", "위", "내부", "공용"],
             answer: 1,
-            explanation: "'아래'의 반댓말은 '위'입니다."
+            explanation: "The antonym of '아래' (below) is '위' (above)."
         },
         {
             id: 26,
@@ -264,7 +264,7 @@ window.allExams["exam7"] = {
             word: "사원",
             options: ["자격", "요리", "직원", "급여"],
             answer: 2,
-            explanation: "'사원'의 비슷한 말은 '직원'입니다."
+            explanation: "The synonym for '사원' (employee) is '직원' (staff/employee)."
         },
         {
             id: 27,
@@ -274,7 +274,7 @@ window.allExams["exam7"] = {
             word: "도구",
             options: ["지역", "온도", "공구", "직원"],
             answer: 2,
-            explanation: "'도구'의 비슷한 말은 '공구'입니다."
+            explanation: "The synonym for '도구' (tool) is '공구' (tool/equipment)."
         },
         {
             id: 28,
@@ -284,7 +284,7 @@ window.allExams["exam7"] = {
             word: "먹이",
             options: ["요리", "허가", "비자", "사료"],
             answer: 3,
-            explanation: "'먹이'의 비슷한 말은 '사료'입니다."
+            explanation: "The synonym for '먹이' (animal feed/prey) is '사료' (feed/fodder)."
         },
         {
             id: 29,
@@ -294,7 +294,7 @@ window.allExams["exam7"] = {
             word: "자격",
             options: ["급여", "복장", "조건", "사원"],
             answer: 2,
-            explanation: "'자격'의 비슷한 말은 '조건'입니다."
+            explanation: "The synonym for '자격' (qualification/requirement) is '조건' (condition/term)."
         },
         {
             id: 30,
@@ -304,7 +304,7 @@ window.allExams["exam7"] = {
             word: "맞은편",
             options: ["가운데", "건너편", "도구", "구역"],
             answer: 1,
-            explanation: "'맞은편'의 비슷한 말은 '건너편'입니다."
+            explanation: "The synonym for '맞은편' (opposite side) is '건너편' (across from)."
         },
         {
             id: 31,
@@ -314,7 +314,7 @@ window.allExams["exam7"] = {
             word: "달",
             options: ["야간", "현금", "월", "가격"],
             answer: 2,
-            explanation: "'달'의 비슷한 말은 '월'입니다."
+            explanation: "The synonym for '달' (month) is '월' (month)."
         },
         {
             id: 32,
@@ -324,7 +324,7 @@ window.allExams["exam7"] = {
             word: "바닷가",
             options: ["위생", "주소", "해변", "규칙"],
             answer: 2,
-            explanation: "'바닷가'의 비슷한 말은 '해변'입니다."
+            explanation: "The synonym for '바닷가' (seaside) is '해변' (beach)."
         },
         {
             id: 33,
@@ -334,7 +334,7 @@ window.allExams["exam7"] = {
             word: "지역",
             options: ["구역", "온도", "옷차림", "도구"],
             answer: 0,
-            explanation: "'지역'의 비슷한 말은 '구역'입니다."
+            explanation: "The synonym for '지역' (region) is '구역' (zone/area)."
         },
         {
             id: 34,
@@ -344,7 +344,7 @@ window.allExams["exam7"] = {
             word: "합법",
             options: ["합법", "선불", "불법", "후불"],
             answer: 2,
-            explanation: "'합법'의 반댓말은 '불법'입니다."
+            explanation: "The antonym of '합법' (legal) is '불법' (illegal)."
         },
         {
             id: 35,
@@ -354,7 +354,7 @@ window.allExams["exam7"] = {
             word: "입사",
             options: ["입사", "개강", "수입", "퇴사"],
             answer: 3,
-            explanation: "'입사'의 반댓말은 '퇴사'입니다."
+            explanation: "The antonym of '입사' (joining a company) is '퇴사' (leaving a company)."
         },
         {
             id: 36,
@@ -364,7 +364,7 @@ window.allExams["exam7"] = {
             word: "출석",
             options: ["탈퇴", "종강", "결석", "참석"],
             answer: 3,
-            explanation: "'출석'의 비슷한 말은 '참석'입니다."
+            explanation: "The synonym for '출석' (attendance) is '참석' (attendance/presence)."
         },
         {
             id: 37,
@@ -374,7 +374,7 @@ window.allExams["exam7"] = {
             word: "입사",
             options: ["결석", "퇴사", "취업", "거짓"],
             answer: 2,
-            explanation: "'입사'의 비슷한 말은 '취업'입니다."
+            explanation: "The synonym for '입사' (joining a company) is '취업' (getting a job)."
         },
         {
             id: 38,
@@ -384,7 +384,7 @@ window.allExams["exam7"] = {
             word: "규칙",
             options: ["청결", "바닷가", "규율", "가입"],
             answer: 2,
-            explanation: "'규칙'의 비슷한 말은 '규율'입니다."
+            explanation: "The synonym for '규칙' (rule) is '규율' (discipline/rule)."
         },
         {
             id: 39,
@@ -394,7 +394,7 @@ window.allExams["exam7"] = {
             word: "비자",
             options: ["요리", "먹이", "허가", "사증"],
             answer: 3,
-            explanation: "'비자'의 비슷한 말은 '사증'입니다."
+            explanation: "The synonym for '비자' (visa) is '사증' (visa)."
         },
         {
             id: 40,
@@ -404,7 +404,7 @@ window.allExams["exam7"] = {
             word: "돈",
             options: ["값", "현금", "중간", "달"],
             answer: 1,
-            explanation: "'돈'의 비슷한 말은 '현금'입니다."
+            explanation: "The synonym for '돈' (money) is '현금' (cash)."
         },
         {
             id: 41,
@@ -414,7 +414,7 @@ window.allExams["exam7"] = {
             word: "최저",
             options: ["유료", "무료", "최저", "최고"],
             answer: 3,
-            explanation: "'최저'의 반댓말은 '최고'입니다."
+            explanation: "The antonym of '최저' (minimum) is '최고' (maximum)."
         },
         {
             id: 42,
@@ -424,7 +424,7 @@ window.allExams["exam7"] = {
             word: "허가",
             options: ["업무", "자격", "요리", "사증"],
             answer: 3,
-            explanation: "'허가'의 비슷한 말은 '사증'입니다."
+            explanation: "The synonym for '허가' (permission) is '사증' (visa/permit context)."
         },
         {
             id: 43,
@@ -434,7 +434,7 @@ window.allExams["exam7"] = {
             word: "외부",
             options: ["위", "낮", "내부", "공용"],
             answer: 2,
-            explanation: "'외부'의 반댓말은 '내부'입니다."
+            explanation: "The antonym of '외부' (outside) is '내부' (inside)."
         },
         {
             id: 44,
@@ -444,7 +444,7 @@ window.allExams["exam7"] = {
             word: "전용",
             options: ["공용", "위", "야간", "아래"],
             answer: 0,
-            explanation: "'전용'의 반댓말은 '공용'입니다."
+            explanation: "The antonym of '전용' (exclusive use) is '공용' (public/common use)."
         },
         {
             id: 45,
@@ -454,7 +454,7 @@ window.allExams["exam7"] = {
             word: "진실",
             options: ["진실", "유료", "최고", "거짓"],
             answer: 3,
-            explanation: "'진실'의 반댓말은 '거짓'입니다."
+            explanation: "The antonym of '진실' (truth) is '거짓' (lie/falsehood)."
         },
         {
             id: 46,
@@ -464,7 +464,7 @@ window.allExams["exam7"] = {
             word: "중간",
             options: ["온도", "밖", "구역", "가운데"],
             answer: 3,
-            explanation: "'중간'의 비슷한 말은 '가운데'입니다."
+            explanation: "The synonym for '중간' (middle) is '가운데' (middle/center)."
         },
         {
             id: 47,
@@ -474,7 +474,7 @@ window.allExams["exam7"] = {
             word: "가입",
             options: ["폐업", "퇴사", "입사", "탈퇴"],
             answer: 2,
-            explanation: "'가입'의 비슷한 말은 '입사'입니다."
+            explanation: "The synonym for '가입' (joining/subscribing) is '입사' (joining a company)."
         },
         {
             id: 48,
@@ -484,7 +484,7 @@ window.allExams["exam7"] = {
             word: "아래",
             options: ["밑", "위", "밖", "중간"],
             answer: 0,
-            explanation: "'아래'의 비슷한 말은 '밑'입니다."
+            explanation: "The synonym for '아래' (below) is '밑' (bottom/under)."
         },
         {
             id: 49,
@@ -494,7 +494,7 @@ window.allExams["exam7"] = {
             word: "사료",
             options: ["요리", "사료", "허가", "비자"],
             answer: 1,
-            explanation: "'사료'의 비슷한 말은 '사료'입니다."
+            explanation: "The synonym for '사료' (feed) is '사료' (feed)."
         },
         {
             id: 50,
@@ -504,7 +504,7 @@ window.allExams["exam7"] = {
             word: "수출",
             options: ["불법", "수입", "유료", "수출"],
             answer: 1,
-            explanation: "'수출'의 반댓말은 '수입'입니다."
+            explanation: "The antonym of '수출' (export) is '수입' (import)."
         },
         {
             id: 51,
@@ -514,7 +514,7 @@ window.allExams["exam7"] = {
             word: "허가",
             options: ["자격", "업무", "허락", "요리"],
             answer: 2,
-            explanation: "'허가'의 비슷한 말은 '허락'입니다."
+            explanation: "The synonym for '허가' (permission) is '허락' (permission/approval)."
         },
         {
             id: 52,
@@ -524,7 +524,7 @@ window.allExams["exam7"] = {
             word: "출석",
             options: ["가입", "결석", "개강", "참석"],
             answer: 1,
-            explanation: "'출석'의 반댓말은 '결석'입니다."
+            explanation: "The antonym of '출석' (attendance) is '결석' (absence)."
         },
         {
             id: 53,
@@ -534,7 +534,7 @@ window.allExams["exam7"] = {
             word: "위생",
             options: ["기준", "가입", "주소", "청결"],
             answer: 3,
-            explanation: "'위생'의 비슷한 말은 '청결'입니다."
+            explanation: "The synonym for '위생' (hygiene) is '청결' (cleanliness)."
         },
         {
             id: 54,
@@ -544,7 +544,7 @@ window.allExams["exam7"] = {
             word: "밤",
             options: ["공용", "위", "낮", "안"],
             answer: 2,
-            explanation: "'밤'의 반댓말은 '낮'입니다."
+            explanation: "The antonym of '밤' (night) is '낮' (daytime)."
         },
         {
             id: 55,
@@ -554,7 +554,7 @@ window.allExams["exam7"] = {
             word: "외부",
             options: ["안", "중간", "밑", "바깥"],
             answer: 3,
-            explanation: "'외부'의 비슷한 말은 '바깥'입니다."
+            explanation: "The synonym for '외부' (outside) is '바깥' (outside)."
         }
     ]
 };
