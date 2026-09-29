@@ -1,310 +1,97 @@
-window.allExams = window.allExams || {};
-window.allExams["exam8"] = {
-    id: "exam8",
-    title: "Verb Synonyms & Antonyms (150 Items)",
-    subtitle: "Reading Practice Test (Questions 1–150)",
-    badge: "어휘 (Vocabulary)",
-    description: "교재 동사 비슷한 말(Synonyms) 및 반댓말(Antonyms) 표 기반 총 150문항 (질문 형식 일치, 모든 카테고리 포함, 정답 및 순서 무작위 셔플)",
-    questions: [
-        {
-            id: 1,
-            type: "text",
-            title: "1. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "개최하다",
-            options: ["해지하다", "부수다", "열다", "닫다"],
-            answer: 2,
-            explanation: "The synonym for '개최하다' (to hold/host an event) is '열다' (to open/hold)."
-        },
-        {
-            id: 2,
-            type: "text",
-            title: "2. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "점검하다",
-            options: ["추락하다", "정비하다", "연기하다", "남기다"],
-            answer: 1,
-            explanation: "The synonym for '점검하다' (to inspect/check) is '정비하다' (to maintain/repair)."
-        },
-        {
-            id: 3,
-            type: "text",
-            title: "3. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "배우다",
-            options: ["가르치다", "버리다", "공부하다", "지키다"],
-            answer: 2,
-            explanation: "The synonym for '배우다' (to learn) is '공부하다' (to study)."
-        },
-        {
-            id: 4,
-            type: "text",
-            title: "4. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "죽다",
-            options: ["사망하다", "살다", "돌아가다", "남다"],
-            answer: 1,
-            explanation: "The antonym of '죽다' (to die) is '살다' (to live)."
-        },
-        {
-            id: 5,
-            type: "text",
-            title: "5. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "포장하다",
-            options: ["풀다", "버리다", "싸다", "벗기다"],
-            answer: 2,
-            explanation: "The synonym for '포장하다' (to pack/wrap) is '싸다' (to wrap/pack)."
-        },
-        {
-            id: 6,
-            type: "text",
-            title: "6. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "입금하다",
-            options: ["예금하다", "출금하다", "돈을 넣다", "저축하다"],
-            answer: 1,
-            explanation: "The antonym of '입금하다' (to deposit money) is '출금하다' (to withdraw money)."
-        },
-        {
-            id: 7,
-            type: "text",
-            title: "7. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "기르다",
-            options: ["사육하다", "줄이다", "팔다", "버리다"],
-            answer: 0,
-            explanation: "The synonym for '기르다' (to raise/breed) is '사육하다' (to breed/raise animals)."
-        },
-        {
-            id: 8,
-            type: "text",
-            title: "8. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "만들다",
-            options: ["재작하다", "생산하다", "부수다", "조립하다"],
-            answer: 2,
-            explanation: "The antonym of '만들다' (to make/create) is '부수다' (to break/destroy)."
-        },
-        {
-            id: 9,
-            type: "text",
-            title: "9. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "출근하다",
-            options: ["회사에 가다", "퇴근하다", "근무하다", "출발하다"],
-            answer: 1,
-            explanation: "The antonym of '출근하다' (to go to work / clock in) is '퇴근하다' (to leave work / clock out)."
-        },
-        {
-            id: 10,
-            type: "text",
-            title: "10. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "원하다",
-            options: ["버리다", "미루다", "포기하다", "바라다"],
-            answer: 3,
-            explanation: "The synonym for '원하다' (to want/desire) is '바라다' (to wish/hope)."
-        },
-        {
-            id: 11,
-            type: "text",
-            title: "11. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "제조하다",
-            options: ["철거하다", "파괴하다", "부수다", "생산하다"],
-            answer: 3,
-            explanation: "The synonym for '제조하다' (to manufacture) is '생산하다' (to produce)."
-        },
-        {
-            id: 12,
-            type: "text",
-            title: "12. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "지키다",
-            options: ["어기다", "보호하다", "준수하다", "따르다"],
-            answer: 0,
-            explanation: "The antonym of '지키다' (to keep/obey) is '어기다' (to break/violate)."
-        },
-        {
-            id: 13,
-            type: "text",
-            title: "13. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "지키다",
-            options: ["준수하다", "버리다", "어기다", "위반하다"],
-            answer: 0,
-            explanation: "The synonym for '지키다' (to keep/observe) is '준수하다' (to comply with/observe)."
-        },
-        {
-            id: 14,
-            type: "text",
-            title: "14. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "매다",
-            options: ["자르다", "풀다", "묶다", "버리다"],
-            answer: 2,
-            explanation: "The synonym for '매다' (to tie/fasten) is '묶다' (to tie/bind)."
-        },
-        {
-            id: 15,
-            type: "text",
-            title: "15. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "시작하다",
-            options: ["출발", "오픈", "끝나다", "시작"],
-            answer: 2,
-            explanation: "The antonym of '시작하다' (to start/begin) is '끝나다' (to end/finish)."
-        },
-        {
-            id: 16,
-            type: "text",
-            title: "16. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "구하다",
-            options: ["숨기다", "버리다", "잃다", "찾다"],
-            answer: 3,
-            explanation: "The synonym for '구하다' (to find/seek) is '찾다' (to look for/find)."
-        },
-        {
-            id: 17,
-            type: "text",
-            title: "17. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "고용하다",
-            options: ["해고하다", "모집하다", "채용하다", "뽑다"],
-            answer: 0,
-            explanation: "The antonym of '고용하다' (to employ/hire) is '해고하다' (to fire/dismiss)."
-        },
-        {
-            id: 18,
-            type: "text",
-            title: "18. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "이용하다",
-            options: ["버리다", "멈추다", "사용하다", "만들다"],
-            answer: 2,
-            explanation: "The synonym for '이용하다' (to use/utilize) is '사용하다' (to use)."
-        },
-        {
-            id: 19,
-            type: "text",
-            title: "19. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "적재하다",
-            options: ["버리다", "밀다", "실다", "내리다"],
-            answer: 2,
-            explanation: "The synonym for '적재하다' (to load freight) is '실다' (to load)."
-        },
-        {
-            id: 20,
-            type: "text",
-            title: "20. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "설치하다",
-            options: ["제거하다", "파괴하다", "세우다", "부수다"],
-            answer: 2,
-            explanation: "The synonym for '설치하다' (to install) is '세우다' (to set up/erect)."
-        },
-        {
-            id: 21,
-            type: "text",
-            title: "21. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "부여하다",
-            options: ["빼앗다", "숨기다", "할당하다", "획득하다"],
-            answer: 2,
-            explanation: "The synonym for '부여하다' (to grant/assign) is '할당하다' (to allocate/assign)."
-        },
-        {
-            id: 22,
-            type: "text",
-            title: "22. 다음 단어의 반댓말은 무엇입니까?",
-            topic: "동사 반댓말 (Verb Antonyms)",
-            word: "포장하다",
-            options: ["묶다", "포장", "벗기다", "싸다"],
-            answer: 2,
-            explanation: "The antonym of '포장하다' (to wrap/pack) is '벗기다' (to strip/unwrap/remove)."
-        },
-        {
-            id: 23,
-            type: "text",
-            title: "23. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "틀다",
-            options: ["끄다", "켜다", "끊다", "막다"],
-            answer: 1,
-            explanation: "The synonym for '틀다' (to turn on) is '켜다' (to turn on)."
-        },
-        {
-            id: 24,
-            type: "text",
-            title: "24. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "사다",
-            options: ["구매하다", "버리다", "판매하다", "팔다"],
-            answer: 0,
-            explanation: "The synonym for '사다' (to buy) is '구매하다' (to purchase)."
-        },
-        {
-            id: 25,
-            type: "text",
-            title: "25. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "이긴다",
-            options: ["포기하다", "승리하다", "지다", "도망치다"],
-            answer: 1,
-            explanation: "The synonym for '이긴다' (to win) is '승리하다' (to achieve victory)."
-        },
-        {
-            id: 26,
-            type: "text",
-            title: "26. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "보관하다",
-            options: ["잃다", "찾다", "저장하다", "버리다"],
-            answer: 2,
-            explanation: "The synonym for '보관하다' (to store/keep) is '저장하다' (to save/store)."
-        },
-        {
-            id: 27,
-            type: "text",
-            title: "27. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "개설하다",
-            options: ["해지하다", "만들다", "부수다", "폐쇄하다"],
-            answer: 1,
-            explanation: "The synonym for '개설하다' (to open an account / establish) is '만들다' (to make/create)."
-        },
-        {
-            id: 28,
-            type: "text",
-            title: "28. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "환영하다",
-            options: ["배웅하다", "떠나다", "환송하다", "맞이하다"],
-            answer: 3,
-            explanation: "The synonym for '환영하다' (to welcome) is '맞이하다' (to greet/receive)."
-        },
-        {
-            id: 29,
-            type: "text",
-            title: "29. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "건조하다",
-            options: ["말리다", "버리다", "축축하게 하다", "적시다"],
-            answer: 0,
-            explanation: "The synonym for '건조하다' (to dry) is '말리다' (to dry out)."
-        },
-        {
-            id: 30,
-            type: "text",
-            title: "30. 다음 단어의 비슷한 말은 무엇입니까?",
-            topic: "동사 비슷한 말 (Verb Synonyms)",
-            word: "고치다",
-            options: ["수리하다", "파손하다", "부수다", "망치다"],
-            answer: 0,
-            explanation: "The synonym for '고치다' (to repair/fix) is '수리하다' (to repair)."
+// exam8.js - Auto-injecting Flashcard Practice App for Exam 8
+
+(function() {
+  const flashcardsData = [
+    { word: "입금하다 (deposit)", nounVerb: "돈을 넣다, 예금하다 (deposit)", synonym: "돈을 넣다, 예금하다 (deposit)", antonym: "출금하다, 돈을 찾다, 뽑다 (withdraw)" },
+    { word: "주다 (give)", nounVerb: "드리다 (give)", synonym: "드리다 (give)", antonym: "받다, 따다, 취득하다, receive" },
+    { word: "지키다 (keep, observe, follow)", nounVerb: "(규율이) 엄격하다 (strict)", synonym: "준수하다, 따르다 (observe), 엄격하다 (strict)", antonym: "어기다 (break), 위반하다 (violate)" },
+    { word: "환영하다 (welcome)", nounVerb: "환영하다 (welcome)", synonym: "환영하다 (welcome)", antonym: "느슨하다 (loose)" },
+    { word: "(환영회를) 개최하다 (hold)", nounVerb: "(환영회를) 개최하다 (hold)", synonym: "열다 (hold)", antonym: "환송하다 (farewell)" },
+    { word: "(비료를) 주다 (give, scatter)", nounVerb: "(비료를) 주다 (give, scatter)", synonym: "뿌리다 (scatter)", antonym: "제거하다 (erase, cancel)" },
+    { word: "체류하다 (stay)", nounVerb: "체류하다 (stay)", synonym: "머무르다, 묵다 (stay)", antonym: "부수다, 파괴하다 (distroy)" },
+    { word: "옮기다 (transfer, carry)", nounVerb: "(거푸집을) 설치하다 (install)", synonym: "나르다, 운반하다 (carry)", antonym: "퇴근하다 (leave from work)" },
+    { word: "(건물을) 짓다 (build, construct)", nounVerb: "(건물을) 짓다 (build, construct)", synonym: "세우다 (install, build), 건설하다 (construct)", antonym: "해지하다, 파기하다 (cancel)" },
+    { word: "출근하다 (go to work)", nounVerb: "출근하다 (go to work)", synonym: "회사에 가다 (go to work)", antonym: "줍다 (pick up)" },
+    // --- Image 2 ---
+    { word: "(월급을) 타다 (get, receive)", nounVerb: "(월급을) 타다 (get, receive)", synonym: "받다 (get, receive)", antonym: "주다 (give)" },
+    { word: "(차에) 타다 (ride)", nounVerb: "(차에) 타다 (ride)", synonym: "오르다 (ride)", antonym: "내리다 (drop off)" },
+    { word: "(한국어를) 배우다 (learn, study)", nounVerb: "(한국어를) 배우다 (learn, study)", synonym: "공부하다 (study)", antonym: "시작하다 (start)" },
+    // --- Image 3 ---
+    { word: "(직원을) 고용하다 (hire)", nounVerb: "(직원을) 고용하다 (hire)", synonym: "채용하다, 뽑다 (hire)", antonym: "해고하다, 자르다 (fire)" },
+    { word: "(가구를) 만들다 (manufacture)", nounVerb: "(가구를) 만들다 (manufacture)", synonym: "제작하다, 생산하다 (manufacture)", antonym: "부수다 (distroy)" },
+    // --- Image 4 ---
+    { word: "부여하다 (give, assign)", nounVerb: "부여하다 (give, assign)", synonym: "할당하다 (assign), 주다 (give)", antonym: "획득하다 (acquire)" },
+    { word: "아끼다 (save)", nounVerb: "아끼다 (save)", synonym: "절약하다 (save, economize)", antonym: "낭비하다 (waste)" }
+  ];
+
+  window.addEventListener('DOMContentLoaded', () => {
+    // Check or create container for Exam 8 practice
+    let container = document.getElementById('exam8-container');
+    if (!container) {
+      container = document.createElement('div');
+      container.id = 'exam8-container';
+      container.style.cssText = 'max-width: 650px; margin: 30px auto; font-family: Arial, sans-serif; text-align: center; padding: 25px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid #eaeaea;';
+      document.body.appendChild(container);
+    }
+
+    let currentIndex = 0;
+    let isFlipped = false;
+
+    function render() {
+      const card = flashcardsData[currentIndex];
+      container.innerHTML = `
+        <h2 style="color: #2c3e50; margin-bottom: 5px;">Exam 8: Vocabulary Flashcards</h2>
+        <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 20px;">Practice Card ${currentIndex + 1} of ${flashcardsData.length}</p>
+        
+        <div id="flashcard-box" style="background: ${isFlipped ? '#f8f9fa' : '#ffffff'}; border: 2px solid ${isFlipped ? '#3498db' : '#cbd5e1'}; border-radius: 10px; padding: 35px 20px; min-height: 160px; cursor: pointer; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: all 0.2s ease-in-out;">
+          <span style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #95a5a6; margin-bottom: 8px;">${isFlipped ? 'Details, Synonyms & Antonyms' : 'Korean Word'}</span>
+          <h3 style="font-size: 22px; color: #2c3e50; margin: 0 0 10px 0;">${isFlipped ? card.word : card.word}</h3>
+          
+          ${isFlipped ? `
+            <hr style="width: 50%; border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
+            <p style="font-size: 15px; color: #34495e; margin: 4px 0;"><strong>Noun/Verb Used:</strong> ${card.nounVerb}</p>
+            <p style="font-size: 15px; color: #27ae60; margin: 4px 0;"><strong>Synonym:</strong> ${card.synonym}</p>
+            <p style="font-size: 15px; color: #c0392b; margin: 4px 0;"><strong>Antonym:</strong> ${card.antonym}</p>
+          ` : `
+            <p style="font-size: 13px; color: #b2bec3; margin-top: 10px;">Click card or press 'Flip' to view synonyms & antonyms</p>
+          `}
+        </div>
+
+        <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center;">
+          <button id="prev-btn" style="padding: 10px 20px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 14px;">← Previous</button>
+          <button id="flip-btn" style="padding: 10px 25px; background: #f39c12; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 14px;">Flip Card 🔄</button>
+          <button id="next-btn" style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 14px;">Next →</button>
+        </div>
+      `;
+
+      // Event Listeners
+      document.getElementById('flashcard-box').onclick = () => {
+        isFlipped = !isFlipped;
+        render();
+      };
+      document.getElementById('flip-btn').onclick = (e) => {
+        e.stopPropagation();
+        isFlipped = !isFlipped;
+        render();
+      };
+      document.getElementById('prev-btn').onclick = (e) => {
+        e.stopPropagation();
+        if (currentIndex > 0) {
+          currentIndex--;
+          isFlipped = false;
+          render();
         }
-    ]
-};
+      };
+      document.getElementById('next-btn').onclick = (e) => {
+        e.stopPropagation();
+        if (currentIndex < flashcardsData.length - 1) {
+          currentIndex++;
+          isFlipped = false;
+          render();
+        }
+      };
+    }
+
+    render();
+  });
+})();
